@@ -36,7 +36,6 @@ a {
 .homeh2,
 .featuredh2 {
   color: var(--vinoOsc);
-  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 
@@ -45,21 +44,30 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 0;
 }
 
-/*  */
-/* Home */
-/*  */
+/* ==============================
+      Home
+      ============================== */
 
 .home {
-  /* background-image: url('../public/img/homeDigital.png'); */
   padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Fondo y dimensiones para Home y AboutUs */
+.home,
+.AboutUs {
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .background-video {
-  /* position: absolute; */
   position: fixed;
   top: 0;
   left: 0;
@@ -69,28 +77,13 @@ a {
   z-index: -10;
 }
 
-.home,
-.AboutUs {
-  background-size: cover;
-  background-position: center;
-  /* background-attachment: fixed; */
-  width: 100vw;
-  height: 100vh;
-}
-
 .grid-demo {
   position: relative;
+  background: linear-gradient(var(--blanco), var(--blanco));
   background-size: cover;
   background-position: center;
   width: 100vw;
   height: 150vh;
-  background: linear-gradient(var(--blanco), var(--blanco));
-}
-
-.home {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .logotipo img {
@@ -119,7 +112,6 @@ a {
   height: 100%;
   border: 1px solid var(--blanco);
   border-radius: 50px;
-  box-sizing: border-box;
   background-color: transparent;
   cursor: pointer;
   outline: none;
@@ -145,7 +137,6 @@ a {
 .home-button::before {
   top: 30%;
   animation-delay: 0.3s;
-  /* animation: home-button 1s ease-in-out infinite; */
 }
 
 @keyframes home-button {
@@ -176,12 +167,10 @@ a {
   display: flex;
   margin-top: 90px;
   width: 37vw;
-  height: auto;
 }
 
 .containerHome_h .homeh2,
 .containerHome_h .homeh3 {
-  font-family: "Montserrat", sans-serif;
   margin: 0;
   font-size: 1.8rem;
 }
@@ -199,16 +188,13 @@ a {
 
 .homeBar {
   width: 20px;
-  height: auto;
   margin-right: 10px;
   background: linear-gradient(to left, var(--doradoOsc), var(--doradoOsc) 50%, transparent 50%);
 }
 
-
-/*  */
-/* About Us */
-/*  */
-
+/* ==============================
+      About Us
+      ============================== */
 .AboutUs {
   display: flex;
   align-items: center;
@@ -220,7 +206,6 @@ a {
   display: flex;
   justify-content: center;
   width: 50vw;
-  height: auto;
 }
 
 .AboutUsIMG img {
@@ -249,12 +234,17 @@ a {
 .AboutUstxt p {
   color: var(--grisOsc);
   text-align: justify;
-  padding: 0 3vw 0 3vw;
+  padding: 0 3vw;
   font-size: 16px;
 }
 
 .AboutUstxt p span {
   font-weight: 600;
+}
+
+.contadorlibros {
+  display: flex;
+  align-items: center;
 }
 
 .contadorlibros p {
@@ -263,7 +253,6 @@ a {
 }
 
 .contadorlibros span {
-  padding: 0;
   margin: 0;
   font-size: 20px;
   font-weight: 700;
@@ -275,22 +264,15 @@ a {
   width: 100px;
 }
 
-.contadorlibros {
-  display: flex;
-  align-items: center;
-}
-
-/*  */
-/* Featured */
-/*  */
-
+/* ==============================
+      Featured
+      ============================== */
 .featured {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   display: flex;
   width: 100vw;
-  height: auto;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -323,30 +305,26 @@ a {
 
 .featured .item img:hover {
   filter: brightness(1.2);
-  /* Ajustar el brillo al pasar el ratón */
 }
 
 .featured .item:not(:hover) {
   transform: rotateY(60deg);
-  /* Giro de 60 grados para el efecto 3D */
 }
 
 .featuredh2 {
   text-align: center;
 }
 
-/*  */
-/* Foouter */
-/*  */
-
-
+/* ==============================
+      Foouter
+      ============================== */
 .foouter {
   position: relative;
   background-size: cover;
   background-position: top;
   width: 100vw;
   height: 25vh;
-  border-radius: 50px 50px 0px 0px;
+  border-radius: 50px 50px 0 0;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -358,21 +336,17 @@ a {
   justify-content: space-between;
   align-items: center;
   width: 30%;
-  height: auto;
 }
 
 .footer_redes img {
-  width: auto;
   height: 30px;
 }
 
 .foouter .foouterLogo img {
   width: 350px;
-  height: auto;
 }
 
 .fooutertxt {
-  width: auto;
   color: var(--blanco);
 }
 
@@ -382,25 +356,9 @@ a {
   justify-content: space-around;
 }
 
-/* .footer_redes p {
-  font-size: 43px;
-  font-weight: 500;
-  text-align: center;
-  color: var(--doradoOsc);
-  margin: 0;
-}
-
-.footer_redes span {
-  font-size: 16px;
-  font-weight: 400;
-  text-align: center;
-  color: var(--doradoClr);
-  display: inline;
-}*/
-
 .foouter span {
   display: block;
-} 
+}
 
 .fooutertxt h1,
 .fooutertxt h2,
@@ -426,7 +384,6 @@ a {
 
 .foouterUbicacion img {
   width: 20px;
-  height: auto;
   margin-right: 5px;
 }
 
@@ -439,12 +396,9 @@ a {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-
-
-/*  */
-/* Documents */
-/*  */
-
+/* ==============================
+      Documents
+      ============================== */
 .documents {
   position: relative;
   width: 70vw;
@@ -491,9 +445,6 @@ a {
   background: var(--blanco);
   border-radius: 20px;
   color: var(--vinoOsc);
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -o-appearance: none;
   appearance: none;
 }
 
@@ -524,12 +475,9 @@ select.form-control::-ms-expand {
   border-color: var(--vinoOsc);
 }
 
-.control-field {
-  position: relative;
-  padding-left: 40px;
-  z-index: 1;
-}
-
+/* ==============================
+      Material Icons
+      ============================== */
 @font-face {
   font-family: "Material Icons";
   font-style: normal;
@@ -549,20 +497,12 @@ select.form-control::-ms-expand {
   white-space: nowrap;
   word-wrap: normal;
   direction: ltr;
-}
-
-.material-icons {
-  display: inline-block;
   vertical-align: top;
-  line-height: inherit;
-  font-size: inherit;
 }
 
-/*  */
-/* card */
-/*  */
-
-
+/* ==============================
+      Card (Book)
+      ============================== */
 .muuri {
   width: 100%;
   padding: 10px;
@@ -575,19 +515,9 @@ select.form-control::-ms-expand {
   z-index: 1;
 }
 
-/* .book-card-container.muuri-item-releasing {
-  z-index: 2;
-}
-
-.book-card-container.muuri-item-dragging {
-  z-index: 3;
-} */
-
-
 img {
   border: 0;
 }
-
 
 .book-card {
   display: block;
@@ -601,14 +531,10 @@ img {
   transition: box-shadow 0.2s;
 }
 
-/*  */
-/* Type of style in title*/
-/*  */
-
+/* Título de la card */
 .book-card__titulo {
   position: absolute;
   margin-right: 9px;
-  height: auto;
   background: linear-gradient(to right, var(--vinoOsc), var(--vinoClr));
   z-index: 99;
 }
@@ -620,6 +546,7 @@ img {
   font-weight: 400;
 }
 
+/* Variaciones según data */
 .book-card__titulo[data-pokemon-type="programas"] {
   top: 45%;
   right: 5px;
@@ -645,7 +572,6 @@ img {
 .book-card__titulo[data-pokemon-type="atlas"] {
   top: 56%;
   right: 5px;
-  height: auto;
   width: 70%;
 }
 
@@ -657,17 +583,16 @@ img {
   text-align: center;
 }
 
-/* ssssss */
-
 .book-card:hover {
   z-index: 5;
-  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.3), 0 0 0 4px hsla(0, 0%, 100%, 0.795),
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.3),
+    0 0 0 4px hsla(0, 0%, 100%, 0.795),
     0 0 30px 5px rgba(0, 0, 0, 0.5);
 }
 
 .book-card__name {
-  z-index: 1;
   position: relative;
+  z-index: 1;
   height: 1.5625em;
   width: 70%;
   margin: -1.09375em 15% 0;
@@ -677,7 +602,6 @@ img {
 }
 
 .book-card__name span {
-  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   position: relative;
   top: 0.418em;
@@ -705,13 +629,12 @@ img {
 }
 
 .book-card__year {
+  position: absolute;
   z-index: 1;
   display: block;
-  position: absolute;
   top: 0.125em;
   left: 50%;
   margin-left: -1.25em;
-  /* width: 1.875em; */
   width: auto;
   height: 1.09375em;
   text-align: center;
@@ -719,7 +642,6 @@ img {
 }
 
 .book-card__year span {
-  font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-style: normal;
   font-size: 0.6875em;
@@ -743,8 +665,8 @@ img {
 }
 
 .book-card__image {
-  z-index: 1;
   position: relative;
+  z-index: 1;
   padding-bottom: 110%;
   height: 0;
   overflow: hidden;
@@ -753,7 +675,6 @@ img {
 }
 
 .book-card__image img {
-  z-index: 2;
   display: block;
   position: absolute;
   top: 49.5%;
@@ -761,16 +682,11 @@ img {
   margin-left: -45%;
   width: 90%;
   height: auto;
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
 }
 
-
-
-/*  */
-/* Card Style Type*/
-/*  */
-
+/* Estilos por tipo (data) */
 .book-card[data-pokemon-type="planes"] .book-card__year span {
   color: var(--doradoClr);
 }
@@ -867,10 +783,9 @@ img {
   fill: var(--grisOsc);
 }
 
-/*  */
-/* Documents container */
-/*  */
-
+/* ==============================
+      Documents Container
+      ============================== */
 .container {
   position: relative;
   top: 75px;
@@ -894,8 +809,7 @@ img {
   right: 0;
   bottom: 0;
   border-radius: 0.8%;
-  box-shadow: 0px 0px 3px var(--grisClr),
-    inset 0px 2px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 3px var(--grisClr), inset 0 2px 4px rgba(0, 0, 0, 0.4);
   background-size: cover;
   overflow-y: auto;
   overflow-x: hidden;
@@ -910,10 +824,9 @@ img {
   background-color: var(--grisOsc);
 }
 
-/*  */
-/* Tooltip */
-/*  */
-
+/* ==============================
+      Tooltip
+      ============================== */
 .tooltip-container {
   position: relative;
   display: inline-block;
@@ -953,10 +866,9 @@ img {
   opacity: 1;
 }
 
-/*  */
-/* Modal */
-/*  */
-
+/* ==============================
+      Modal
+      ============================== */
 .modal-overlay {
   position: fixed;
   top: 50%;
@@ -993,6 +905,7 @@ img {
   text-align: center;
   position: relative;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  animation: scaleAndExpand 0.5s ease-out;
 }
 
 .close-button {
@@ -1007,53 +920,51 @@ img {
   margin: auto;
   padding: 13px 22px;
   transition: all 0.3s ease;
+}
 
-  &:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: block;
-    border-radius: 28px;
-    background: var(--doradoClr);
-    width: 46px;
-    height: 46px;
-    transition: width 0.8s ease;
-  }
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: var(--doradoClr);
+  width: 46px;
+  height: 46px;
+  transition: width 0.8s ease;
+}
 
-  span {
-    position: relative;
-    font-size: 16px;
-    line-height: 18px;
-    color: #111;
-    font-weight: 900;
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
-    vertical-align: middle;
-  }
+.cta span {
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  color: #111;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
 
-  svg {
-    position: relative;
-    top: 0;
-    margin-left: 10px;
-    fill: none;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke: #111;
-    stroke-width: 2;
-    transform: translateX(-5px);
-    transition: transform 0.3s ease;
-  }
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: transform 0.3s ease;
+}
 
-  &:hover {
-    &:before {
-      width: 100%;
-    }
+.cta:hover:before {
+  width: 100%;
+}
 
-    svg {
-      transform: translateX(0);
-    }
-  }
+.cta:hover svg {
+  transform: translateX(0);
 }
 
 @keyframes variableWidth {
@@ -1066,11 +977,9 @@ img {
   }
 
   100% {
-    width: 46px
+    width: 46px;
   }
 }
-
-
 
 @keyframes scaleAndExpand {
   0% {
@@ -1082,49 +991,31 @@ img {
 
   25% {
     transform: scaleY(0.25) scaleX(0.40);
-    height: auto;
     opacity: 0.30;
   }
 
   50% {
     transform: scaleY(0.5) scaleX(0.45);
-    height: auto;
     opacity: 0.50;
   }
 
   75% {
     transform: scaleY(0.75) scaleX(0.55);
-    height: auto;
     opacity: 0.70;
   }
 
   100% {
     transform: scaleY(1) scaleX(1);
-    height: auto;
     opacity: 1;
   }
 }
 
+/* Se asume que scaleAndExpandOut se define en otro lugar */
 
-
-.modal-content {
-  /* Otros estilos aquí */
-  animation: scaleAndExpand 0.5s ease-out;
-}
-
-
-.modal-overlay.modal-closed .modal-content {
-  animation: scaleAndExpandOut 0.5s ease-out forwards;
-}
-
-
-
-/*  */
-/* Responsivo */
-/*  */
-
+/* ==============================
+      Responsivo
+      ============================== */
 @media screen and (max-width: 600px) {
-
   .grid-demo {
     height: 160vh;
   }
@@ -1137,7 +1028,6 @@ img {
     width: 135px;
     height: 210px;
     margin: 10px;
-    z-index: 1;
   }
 
   .container {
@@ -1151,19 +1041,6 @@ img {
     font-size: 4px;
     font-weight: 400;
   }
-
-  .book-card__titulo[data-pokemon-type="programas"] {
-    top: 32%;
-    right: 1px;
-  }
-
-  /* .book-card__titulo[data-pokemon-type="planes"] {
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    text-align: center;
-  } */
 
   .book-card__titulo[data-pokemon-type="guías"] {
     bottom: 48%;
@@ -1187,12 +1064,11 @@ img {
   .containerHome_h {
     margin-top: 40px;
     width: 43vw;
-    height: auto;
   }
 
   .containerHome_h .homeh2,
   .containerHome_h .homeh3 {
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 
   .container_home-button {
@@ -1203,12 +1079,10 @@ img {
     margin-bottom: 20px;
   }
 
-  /* modal */
-  .cta {
-    &:before {
-      display: inline-block;
-      animation: variableWidth 3s infinite;
-    }
+  /* Modal */
+  .cta:before {
+    display: inline-block;
+    animation: variableWidth 3s infinite;
   }
 
   /* Tooltip */
@@ -1216,12 +1090,12 @@ img {
     opacity: 0;
   }
 
-  /*GridLines*/
+  /* GridLines */
   .container {
     top: 10px;
   }
 
-  /* documents */
+  /* Documents */
   .documents {
     top: 2vh;
   }
@@ -1234,21 +1108,18 @@ img {
 }
 
 @media screen and (max-width: 550px) {
-
   .subtitulo {
     font-size: 24px;
     margin: 0;
   }
 
   /* Home */
-
   .logotipo img {
     top: 5vw;
     left: 50%;
     width: 360px;
     transform: translateX(-50%);
   }
-
 
   .homeh2,
   .homeh3 {
@@ -1263,7 +1134,6 @@ img {
   .homeh2 {
     font-size: 20px;
   }
-
 
   /* AboutUs */
   .AboutUs {
@@ -1301,16 +1171,10 @@ img {
     padding-top: 40px;
   }
 
-  .featured .item {
-    transform-style: preserve-3d;
-    transition: transform 0.5s;
-  }
-
   .featured .item img {
     width: 120px;
     height: auto;
     margin: 5vh -15px 0 -15px;
-    transition: transform 0.5s, margin 0.5s, filter 0.5s;
   }
 
   .featured .item:hover {
@@ -1331,8 +1195,7 @@ img {
   /* Foouter */
   .foouter {
     height: 15vh;
-    border-radius: 25px 25px 0px 0px;
-    display: flex;
+    border-radius: 25px 25px 0 0;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: space-evenly;
@@ -1356,9 +1219,6 @@ img {
   .footer_redes p {
     font-size: 29px;
   }
-  
- 
-  
 
   .fooutertxt {
     display: flex;
@@ -1374,7 +1234,6 @@ img {
 
   .foouter .foouterLogo img {
     width: 350px;
-    height: auto;
   }
 
   .fooutertxt h1 {
@@ -1403,7 +1262,6 @@ img {
   .grid-demo {
     height: 170vh;
   }
-
 }
 
 @media screen and (max-width: 380px) {
@@ -1424,7 +1282,6 @@ img {
     width: 300px;
     height: 380px;
     margin: 10px;
-    z-index: 1;
   }
 
   .foouter .foouterLogo img {
@@ -1434,10 +1291,11 @@ img {
   .grid-demo {
     height: 140vh;
   }
-
-
 }
 
+/* ==============================
+      Animaciones Extra
+      ============================== */
 .AboutUstxt .animate__animated.animate__fadeInRight:nth-child(1) {
   --animate-duration: 1.2s;
 }
@@ -1449,4 +1307,3 @@ img {
 .AboutUstxt .animate__animated.animate__fadeInRight:nth-child(3) {
   --animate-duration: 1.45s;
 }
-
