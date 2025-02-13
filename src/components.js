@@ -266,7 +266,7 @@ const Modal = ({ children, isOpen, onClose, booksData }) => {
             <span>Visualizar</span>
           </a>
         </div>
-        <br/><br/>
+        <br /><br />
         <div className="modal-actions">
           <a href={pdfSrc} download className="cta">
             <span>Descargar PDF</span>
@@ -288,93 +288,6 @@ const Modal = ({ children, isOpen, onClose, booksData }) => {
     </div>
   );
 };
-
-
-
-// Card content.
-// export const CardContent = React.memo(
-//   ({ types, name, año, descriptionBook, pdfSrc }) => {
-//     const [isModalOpen, setIsModalOpen] = useState(false);
-//     const truncatedName = name.length > 55 ? `${name.slice(0, 55)}...` : name;
-//     const booksData = { types, name, año, descriptionBook, pdfSrc, };
-
-//     return (
-//       <>
-//         <div className="book-card-container" onClick={() => setIsModalOpen(true)}>
-//           <div className="book-card" data-pokemon-type={types[0]}>
-//             <div className="book-card__image">
-//               <img
-//                 src={`${imgFront_personal}${name}.jpg`}
-//                 alt={`Imagen de ${name}`}
-//                 onError={(e) => {
-//                   e.target.onerror = null; // Para evitar bucles infinitos
-//                   e.target.src = `${imgFront_pagePath}${types}.webp`;
-//                 }} />
-//             </div>
-//             <Tooltip text={name}><h3 className="book-card__name">
-//               <span>{truncatedName}</span>
-//               <svg className="right">
-//                 <use xlinkHref="#icon-rounded-tri-right">
-//                   <svg id="icon-rounded-tri-right" viewBox="0 0 32 32">
-//                     <title>rounded-tri-right</title>
-//                     <path
-//                       className="path1"
-//                       d="M3.424 1.76l20.864 28.48c0.8 1.088 2.080 1.728 3.424 1.728h-27.712v-31.936c1.344 0 2.624 0.64 3.424 1.728z"
-//                     />
-//                   </svg>
-//                 </use>
-//               </svg>
-//               <svg className="left">
-//                 <use xlinkHref="#icon-rounded-tri-left">
-//                   {" "}
-//                   <svg id="icon-rounded-tri-left" viewBox="0 0 32 32">
-//                     <title>rounded-tri-left</title>
-//                     <path
-//                       className="path1"
-//                       d="M28.576 1.728l-20.896 28.48c-0.8 1.088-2.080 1.728-3.424 1.728h27.744v-31.936c-1.344 0-2.624 0.64-3.424 1.728z"
-//                     />
-//                   </svg>
-//                 </use>
-//               </svg>
-//             </h3></Tooltip>
-
-//             <span className="book-card__year">
-//               <span>{año}</span>
-//               <svg className="right">
-//                 <use xlinkHref="#icon-rounded-slim-tri-bottom-right">
-//                   <svg
-//                     id="icon-rounded-slim-tri-bottom-right"
-//                     viewBox="0 0 32 32"
-//                   >
-//                     <title>rounded-slim-tri-bottom-right</title>
-//                     <path
-//                       className="path1"
-//                       d="M13.472 2.944l-9.312 26.016c-0.64 1.824-2.368 3.040-4.32 3.040v-32.096h17.92c-1.92 0-3.648 1.216-4.288 3.040z"
-//                     />
-//                   </svg>
-//                 </use>
-//               </svg>
-//               <svg className="left">
-//                 <use xlinkHref="#icon-rounded-slim-tri-bottom-left">
-//                   <svg id="icon-rounded-slim-tri-bottom-left" viewBox="0 0 32 32">
-//                     <title>rounded-slim-tri-bottom-left</title>
-//                     <path
-//                       className="path1"
-//                       d="M18.56 2.848l9.312 26.080c0.64 1.824 2.4 3.040 4.32 3.040v-32.192h-17.984c1.952 0.032 3.68 1.248 4.352 3.072z"
-//                     />
-//                   </svg>
-//                 </use>
-//               </svg>
-//             </span>
-
-//           </div>
-//         </div>
-//         <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} booksData={booksData} />
-//       </>
-//     );
-//   }
-// );
-
 
 export const CardContent = React.memo(
   ({ types, name, año, descriptionBook, pdfSrc }) => {
