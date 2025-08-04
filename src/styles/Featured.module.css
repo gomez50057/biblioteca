@@ -1,0 +1,78 @@
+/* Featured.module.css */
+
+.featured {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/img/back.webp');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  padding: 4rem 0;
+}
+
+.subTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.subTitle {
+  font-size: 2rem;
+  letter-spacing: 0.4em;
+  color: var(--vinoOsc);
+  font-weight: 700;
+  text-align: center;
+}
+
+.containerFeatured {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  perspective: 1000px;
+}
+
+.item {
+  transform-style: preserve-3d;
+  transition: transform 0.5s ease;
+  cursor: pointer;
+}
+
+.image {
+  width: 180px;
+  height: auto;
+  border-radius: 6%;
+  transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+.item:hover {
+  transform: scale(1.2) rotateY(0deg);
+}
+
+.item:not(:hover) {
+  transform: rotateY(60deg);
+}
+
+.item:hover .image {
+  filter: brightness(1.2);
+}
+
+@media (max-width: 600px) {
+  .containerFeatured {
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .image {
+    width: 120px;
+  }
+
+  .subTitle {
+    font-size: 1.5rem;
+  }
+}

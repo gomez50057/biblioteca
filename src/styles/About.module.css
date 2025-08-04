@@ -1,0 +1,109 @@
+/* AboutUs.module.css */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  background: var(--blanco);
+}
+
+.imageContainer {
+  flex: 1 1 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 250px;
+  height: auto;
+  animation: floatingAnimation 1.8s infinite alternate ease-in-out;
+}
+
+@keyframes floatingAnimation {
+  0% {
+    transform: translateY(0);
+    filter: drop-shadow(0 50px 20px rgba(184, 175, 175, 0.5));
+  }
+  100% {
+    transform: translateY(-30px);
+    filter: drop-shadow(0 10px 20px rgba(184, 175, 175, 0.9));
+  }
+}
+
+.textContainer {
+  flex: 1 1 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.text {
+  color: var(--grisOsc);
+  text-align: justify;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.text span {
+  font-weight: 600;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.counterIcon {
+  width: 100px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.counterText {
+  font-size: 2rem;
+  color: var(--vinoOsc);
+  margin: 0;
+}
+
+.counterText span {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--grisOsc);
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .image {
+    width: 200px;
+  }
+
+  .textContainer {
+    flex: 1 1 100%;
+    padding: 0.5rem;
+  }
+
+  .text {
+    font-size: 0.9rem;
+  }
+
+  .counterIcon {
+    width: 50px;
+    margin-right: 0.5rem;
+  }
+
+  .counterText {
+    font-size: 1.5rem;
+  }
+}

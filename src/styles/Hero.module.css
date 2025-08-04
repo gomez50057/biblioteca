@@ -1,0 +1,150 @@
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: var(--blanco);
+}
+
+.backgroundVideo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.logo {
+  position: absolute;
+  top: 2.5vw;
+  right: 2.5vw;
+}
+
+.logoImage {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.homeText {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.homeTextImage {
+  display: block;
+  max-width: 80%;
+  height: auto;
+}
+
+.quoteContainer {
+  display: flex;
+  align-items: center;
+  margin: 1.5rem 0;
+  width: 80%;
+  max-width: 800px;
+}
+
+.quoteBar {
+  width: 20px;
+  height: 100%;
+  margin-right: 1rem;
+  background: linear-gradient(to top, var(--doradoOsc), var(--doradoOsc) 50%, transparent 50%);
+}
+
+.quoteText {
+  display: flex;
+  flex-direction: column;
+  color: var(--grisOsc);
+}
+
+.quoteMain {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.quoteAuthor {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--vinoOsc);
+  margin: 0.5rem 0 0;
+}
+
+.scrollButtonContainer {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.scrollButton {
+  width: 30px;
+  height: 60px;
+  border: 2px solid var(--grisOsc);
+  border-radius: 50px;
+  background: transparent;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+  overflow: hidden;
+}
+
+.scrollButton::before,
+.scrollButton::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 10px;
+  height: 10px;
+  border: 2px solid var(--vinoOsc);
+  border-top: transparent;
+  border-left: transparent;
+  transform: translateX(-50%) rotate(45deg);
+  animation: scrollArrow 2s ease-in-out infinite;
+}
+
+.scrollButton::before {
+  top: 20%;
+  animation-delay: 0.3s;
+}
+
+.scrollButton::after {
+  top: 30%;
+}
+
+@keyframes scrollArrow {
+  0% {
+    top: 20%;
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    top: 90%;
+    opacity: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .quoteMain {
+    font-size: 1.2rem;
+  }
+  .quoteAuthor {
+    font-size: 1rem;
+  }
+  .logo {
+    top: 5vw;
+    right: 5vw;
+  }
+}

@@ -1,0 +1,123 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.content {
+  position: relative;
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(15px);
+  padding: 2rem;
+  border-radius: 20px;
+  max-width: 600px;
+  width: 90%;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  animation: scaleAndExpand 0.5s ease-out;
+}
+
+.closeButton {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--vinoOsc);
+  cursor: pointer;
+}
+
+.title {
+  margin: 0 0 1rem;
+  color: var(--vinoOsc);
+}
+
+.description {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.category {
+  margin-bottom: 1.5rem;
+  text-transform: capitalize;
+}
+
+.actions {
+  margin-bottom: 1rem;
+}
+
+.ctaView,
+.ctaDownload {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  margin: 0.5rem;
+  background: var(--doradoClr);
+  border-radius: 28px;
+  text-decoration: none;
+  font-weight: 900;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: #111;
+  position: relative;
+  overflow: hidden;
+  transition: width 0.8s ease;
+}
+
+.ctaDownload svg {
+  margin-left: 0.5rem;
+  stroke: #111;
+  stroke-width: 2;
+  fill: none;
+}
+
+.ctaView::before,
+.ctaDownload::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 46px;
+  height: 46px;
+  background: var(--doradoClr);
+  border-radius: 50%;
+  transition: width 0.8s ease;
+}
+
+.ctaView:hover::before,
+.ctaDownload:hover::before {
+  width: 100%;
+}
+
+@keyframes scaleAndExpand {
+  0% {
+    transform: scaleY(0.1) scaleX(0.2);
+    opacity: 0.1;
+    background-color: var(--doradoClr);
+  }
+  25% {
+    transform: scaleY(0.25) scaleX(0.4);
+    opacity: 0.3;
+  }
+  50% {
+    transform: scaleY(0.5) scaleX(0.45);
+    opacity: 0.5;
+  }
+  75% {
+    transform: scaleY(0.75) scaleX(0.55);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scaleY(1) scaleX(1);
+    opacity: 1;
+  }
+}
