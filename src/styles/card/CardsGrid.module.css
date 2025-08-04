@@ -1,12 +1,9 @@
-/* Grid container for cards */
 .gridContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: -10px;
 }
 
-/* Individual card */
 .card {
   width: 200px;
   height: 280px;
@@ -25,7 +22,6 @@
     0 0 30px 5px rgba(0, 0, 0, 0.5);
 }
 
-/* Image wrapper with aspect ratio */
 .imageWrapper {
   position: relative;
   z-index: 1;
@@ -46,7 +42,6 @@
   height: auto;
 }
 
-/* Title truncated under the image */
 .title {
   position: relative;
   z-index: 1;
@@ -123,7 +118,6 @@
   font-weight: 900;
 }
 
-/* Background color variants by category (lowercase keys) */
 .bg_planes .year {
   color: #FFD700;
   /* dorado brillante */
