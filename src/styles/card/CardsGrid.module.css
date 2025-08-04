@@ -1,0 +1,124 @@
+/* Grid container for cards */
+.gridContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -10px;
+}
+
+/* Individual card */
+.card {
+  width: 200px;
+  height: 280px;
+  margin: 10px;
+  position: relative;
+  cursor: pointer;
+  background: var(--blanco);
+  border-radius: 0.15625em;
+  transition: box-shadow 0.2s;
+}
+
+.card:hover {
+  z-index: 5;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.3),
+    0 0 0 4px hsla(0, 0%, 100%, 0.795),
+    0 0 30px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Image wrapper with aspect ratio */
+.imageWrapper {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 110%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 2px;
+  background-color: var(--grisClr);
+}
+
+.imageWrapper img {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: auto;
+}
+
+/* Title truncated under the image */
+.title {
+  position: relative;
+  z-index: 1;
+  width: 70%;
+  margin: -1.09375em 15% 0;
+  text-align: center;
+  background: var(--blanco);
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--grisOsc);
+}
+
+/* Year badge */
+.year {
+  position: absolute;
+  z-index: 1;
+  top: 0.125em;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  padding: 0 0.25em;
+  font-size: 0.6875rem;
+  font-weight: 900;
+}
+
+/* Background color variants by category (lowercase keys) */
+.bg_planes .year {
+  color: #FFD700;
+  /* dorado brillante */
+}
+
+.bg_planes .imageWrapper {
+  background: #FFC107;
+  /* dorado medio */
+}
+
+.bg_programas .year {
+  color: #FF6347;
+  /* tomate */
+}
+
+.bg_programas .imageWrapper {
+  background: #FF4500;
+  /* rojo anaranjado */
+}
+
+.bg_guías .year {
+  color: #3CB371;
+  /* verde mar */
+}
+
+.bg_guías .imageWrapper {
+  background: #2E8B57;
+  /* verde mar oscuro */
+}
+
+.bg_atlas .year {
+  color: #1E90FF;
+  /* azul dodger */
+}
+
+.bg_atlas .imageWrapper {
+  background: #1C86EE;
+  /* azul intenso */
+}
+
+.bg_informes .year {
+  color: #708090;
+  /* gris pizarra */
+}
+
+.bg_informes .imageWrapper {
+  background: #5A6970;
+  /* gris oscuro */
+}

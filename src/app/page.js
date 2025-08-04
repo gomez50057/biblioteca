@@ -1,6 +1,7 @@
 import HeroSection from "@/components/Hero";
 import AboutSection from "@/components/About";
 import Featured from "@/components/Featured";
+import CardContent from "@/components/CardContent";
 
 export default function HomePage() {
   return (
@@ -8,6 +9,7 @@ export default function HomePage() {
       <HeroSection />
       <AboutSection />
       <Featured />
+      <CardContent />
     </main>
   );
 }

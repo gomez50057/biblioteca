@@ -12,9 +12,6 @@ export const datosBibliotecaDigital = {
     "Categorías",
     "Planes",
     "Programas",
-    // "Acuerdos",
-    // "Catálogos",
-    // "Actas",
     "Guías",
     "Atlas",
     "Informes"
