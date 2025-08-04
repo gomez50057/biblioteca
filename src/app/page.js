@@ -1,7 +1,7 @@
-import HeroSection from "@/components/Hero";          // Hero.js
-import AboutSection from "@/components/About";        // About.js
-import Featured from "@/components/Featured";         // Featured.js
-import CardContent from "@/components/CardContent"; // Cards/CardContent.js
+import HeroSection from "@/components/Hero";
+import AboutSection from "@/components/About";
+import Featured from "@/components/Featured";
+import CardContent from "@/components/CardContent";
 
 export default function HomePage() {
   return (
