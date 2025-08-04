@@ -1,21 +1,4 @@
-
-
-// Lista de libros
 export const datosBibliotecaDigital = {
-  cardInfo: ["A-Z", "Año"],
-  subcategoryPlanes: ["Nacional", "Estatal", "Municipal"],
-  subcategoryProgramas: ["Estatal", "Municipal", "Sectorial", "Institucional", "Especial"],
-  subcategoryInexistente: ["Inexistente"],
-
-  cardInfo2: ["Estatal", "Municipal", "Sectorial", "Institucional", "Especial"],
-  types: [
-    "Categorías",
-    "Planes",
-    "Programas",
-    "Guías",
-    "Atlas",
-    "Informes"
-  ],
   cards: [
     {
       "name": "1er Informe de Gobierno Acaxochitlán 2020-2024",

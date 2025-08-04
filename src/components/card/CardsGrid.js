@@ -18,14 +18,14 @@ export default function CardsGrid({ cards, openModal }) {
   return (
     <div className={styles.gridContainer}>
       {cards.map(card => {
-        const { name, año, types, subcategory } = card;
-        const category = types[0].toLowerCase();
+        const { id, name, año, types, subcategory } = card;
+        const category = types[0]?.toLowerCase() || '';
         const bgClass = styles[`bg_${category}`] || styles.bg_default;
         const imgFile = typeToFile[category] || `${encodeURIComponent(category)}.webp`;
 
         return (
           <div
-            key={card.id || name}
+            key={id || name}
             className={[styles.card, bgClass].join(' ')}
             onClick={() => openModal(card)}
             data-category={category}
