@@ -82,6 +82,15 @@ h2 .spanvino {
   font-style: italic;
 }
 
+.subTitle {
+  font-size: 2rem;
+  letter-spacing: 0.4em;
+  color: var(--vinoOsc);
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+}
+
 p {
   color: var(--grisOsc);
   font-weight: 500;
@@ -116,4 +125,11 @@ body {
 .swiper-button-next:hover {
   color: #800020;
   /* Color vino al hacer hover */
+}
+
+
+@media (max-width: 600px) {
+  .subTitle {
+    font-size: 1.5rem;
+  }
 }

@@ -44,6 +44,7 @@ export default function CardContent() {
 
   return (
     <section className={styles.container}>
+      <h2 className='subTitle'>Documentos</h2>
       <FilterableCardsGrid
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}

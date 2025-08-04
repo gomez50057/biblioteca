@@ -19,14 +19,6 @@
   margin-bottom: 2rem;
 }
 
-.subTitle {
-  font-size: 2rem;
-  letter-spacing: 0.4em;
-  color: var(--vinoOsc);
-  font-weight: 700;
-  text-align: center;
-}
-
 .containerFeatured {
   display: flex;
   justify-content: center;
@@ -68,9 +60,5 @@
 
   .image {
     width: 120px;
-  }
-
-  .subTitle {
-    font-size: 1.5rem;
   }
 }

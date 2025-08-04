@@ -29,6 +29,7 @@
     transform: translateY(0);
     filter: drop-shadow(0 50px 20px rgba(184, 175, 175, 0.5));
   }
+
   100% {
     transform: translateY(-30px);
     filter: drop-shadow(0 10px 20px rgba(184, 175, 175, 0.9));
@@ -43,6 +44,10 @@
   padding: 1rem;
 }
 
+.textContainer h1 {
+  margin: 0;
+}
+
 .text {
   color: var(--grisOsc);
   text-align: justify;
@@ -52,6 +57,11 @@
 
 .text span {
   font-weight: 600;
+}
+
+.textContainer>.text:first-of-type span {
+  font-weight: 700;
+  font-size: 1.35rem;
 }
 
 .counter {

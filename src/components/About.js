@@ -36,8 +36,10 @@ const AboutUs = forwardRef((_, ref) => {
       </div>
 
       <div className={styles.textContainer}>
+        <p className={styles.text}><span>Bienvenido a la </span></p>
+        <h1><span className='spanDoarado'>Biblioteca Digital</span> de <span className='spanVino'>Planeación</span></h1>
         <p className={styles.text}>
-          <span>Bienvenido a la Biblioteca Digital de Planeación</span>, herramienta pública para el almacenamiento y consulta de documentos, programas, planes, informes, estudios, artículos, guías y demás instrumentos.
+          Herramienta pública para el almacenamiento y consulta de documentos, programas, planes, informes, estudios, artículos, guías y demás instrumentos.
         </p>
         <p className={styles.text}>
           Este espacio virtual tiene como objetivo ser una herramienta útil para la población, donde de manera ágil pueden consultar y descargar los materiales.

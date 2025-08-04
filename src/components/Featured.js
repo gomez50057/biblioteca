@@ -44,7 +44,7 @@ export default function Featured() {
       <div className={styles.background} />
 
       <div className={styles.subTitleContainer}>
-        <h2 className={styles.subTitle}>DESTACADAS</h2>
+        <h2 className='subTitle'>Destacadas</h2>
       </div>
 
       <div className={styles.containerFeatured}>
