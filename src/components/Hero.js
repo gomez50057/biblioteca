@@ -5,11 +5,10 @@ import styles from '@/styles/Hero.module.css';
 const imgBasePath = '/img/';
 const videoPath = '/video/';
 
-export default function Hero({ aboutRef, children }) {
+export default function Hero() {
   const handleScroll = () => {
-    if (aboutRef?.current) {
-      aboutRef.current.scrollIntoView({ behavior: 'smooth' });
-    }
+    const next = document.getElementById('about-section');
+    if (next) next.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -48,13 +47,12 @@ export default function Hero({ aboutRef, children }) {
 
       <div className={styles.scrollButtonContainer}>
         <button
+          type="button"
           className={styles.scrollButton}
           onClick={handleScroll}
           aria-label="Desplazar hacia sección About Us"
         />
       </div>
-
-      {children}
     </section>
   );
 }

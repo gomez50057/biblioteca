@@ -2,12 +2,12 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   width: 100%;
   min-height: 100vh;
+  margin-left: 2.5rem;
   overflow: hidden;
-  background-color: var(--blanco);
 }
 
 .backgroundVideo {
@@ -51,11 +51,22 @@
   max-width: 800px;
 }
 
+.quoteContainer {
+  display: flex;
+}
+
 .quoteBar {
-  width: 20px;
-  height: 100%;
+  width: 4px;
   margin-right: 1rem;
-  background: linear-gradient(to top, var(--doradoOsc), var(--doradoOsc) 50%, transparent 50%);
+  align-self: stretch;
+  background: linear-gradient(to top,
+      var(--doradoOsc),
+      var(--doradoOsc) 50%,
+      transparent 50%);
+}
+
+.quoteText {
+  flex: 1;
 }
 
 .quoteText {
@@ -124,12 +135,15 @@
     top: 20%;
     opacity: 0;
   }
+
   30% {
     opacity: 1;
   }
+
   60% {
     opacity: 1;
   }
+
   100% {
     top: 90%;
     opacity: 0;
@@ -140,9 +154,11 @@
   .quoteMain {
     font-size: 1.2rem;
   }
+
   .quoteAuthor {
     font-size: 1rem;
   }
+
   .logo {
     top: 5vw;
     right: 5vw;
