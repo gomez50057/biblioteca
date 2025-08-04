@@ -6,9 +6,9 @@
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
-  min-height: 100vh;
   padding: 2rem;
   background: var(--blanco);
+  margin: 2rem 0;
 }
 
 .imageContainer {
