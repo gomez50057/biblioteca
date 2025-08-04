@@ -1,12 +1,14 @@
 .container{
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .screen {
   width: 90vw;
-  background: #fff;
-  background-size: cover;
+  /* background: #fff; */
+  background: var(--blanco);
   border-radius: 30px;
   box-shadow: 0 0 3px #98989a, inset 0 2px 4px #0006;
   box-shadow: 0 0 3px var(--grisClr), inset 0 2px 4px #0006;
