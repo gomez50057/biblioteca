@@ -1,5 +1,11 @@
+// FilterableCardsGrid.js
+'use client';
+import dynamic from 'next/dynamic';
 import React from 'react';
-import styles from '@/styles/card/CardsGrid.module.css';
+import styles from '@/styles/card/FilterableCardsGrid.module.css';
+
+// Cargamos react-select solo en cliente para evitar desajustes en SSR
+const Select = dynamic(() => import('react-select'), { ssr: false });
 
 export default function FilterableCardsGrid({
   searchTerm,
@@ -11,6 +17,25 @@ export default function FilterableCardsGrid({
   categories,
   subMap,
 }) {
+  // Opciones para react-select
+  const categoryOptions = categories.map(cat => ({ value: cat, label: cat }));
+  const subcategoryOptions = Array.from(
+    new Set(
+      categoryFilter.flatMap(cat => subMap[cat] || [])
+    )
+  ).map(sub => ({ value: sub, label: sub }));
+
+  const handleCategoryChange = selected => {
+    const values = selected ? selected.map(o => o.value) : [];
+    setCategoryFilter(values);
+    setSubcategoryFilter([]);
+  };
+
+  const handleSubcategoryChange = selected => {
+    const values = selected ? selected.map(o => o.value) : [];
+    setSubcategoryFilter(values);
+  };
+
   return (
     <div className={styles.filters}>
       <input
@@ -20,34 +45,31 @@ export default function FilterableCardsGrid({
         onChange={e => setSearchTerm(e.target.value)}
         className={styles.searchInput}
       />
-      <select
-        value={categoryFilter}
-        onChange={e => {
-          setCategoryFilter(e.target.value);
-          setSubcategoryFilter('');
-        }}
-        className={styles.select}
-      >
-        <option value="">Todas Categorías</option>
-        {categories.map(cat => (
-          <option key={cat} value={cat}>
-            {cat}
-          </option>
-        ))}
-      </select>
-      <select
-        value={subcategoryFilter}
-        onChange={e => setSubcategoryFilter(e.target.value)}
-        className={styles.select}
-        disabled={!categoryFilter}
-      >
-        <option value="">Todas Subcategorías</option>
-        {(subMap[categoryFilter] || []).map(sub => (
-          <option key={sub} value={sub}>
-            {sub}
-          </option>
-        ))}
-      </select>
+
+      <div >
+        <Select
+          isMulti
+          options={categoryOptions}
+          value={categoryOptions.filter(opt => categoryFilter.includes(opt.value))}
+          onChange={handleCategoryChange}
+          placeholder="Selecciona categorías..."
+          classNamePrefix="react-select"
+          instanceId="category-select"
+        />
+      </div>
+
+      <div >
+        <Select
+          isMulti
+          options={subcategoryOptions}
+          value={subcategoryOptions.filter(opt => subcategoryFilter.includes(opt.value))}
+          onChange={handleSubcategoryChange}
+          placeholder="Selecciona subcategorías..."
+          isDisabled={categoryFilter.length === 0}
+          classNamePrefix="react-select"
+          instanceId="subcategory-select"
+        />
+      </div>
     </div>
   );
 }

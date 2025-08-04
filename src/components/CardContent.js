@@ -20,21 +20,19 @@ const subMap = {
 export default function CardContent() {
   const [selectedItem, setSelectedItem] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
-  const [categoryFilter, setCategoryFilter] = useState('');
-  const [subcategoryFilter, setSubcategoryFilter] = useState('');
+  const [categoryFilter, setCategoryFilter] = useState([]);
+  const [subcategoryFilter, setSubcategoryFilter] = useState([]);
 
-  // Filtrado por categoría/subcategoría
   const baseCards = useMemo(() => {
     return datosBibliotecaDigital.cards.filter(card => {
       const type = card.types[0]?.toLowerCase() || '';
       const sub = card.subcategory?.toLowerCase() || '';
-      if (categoryFilter && type !== categoryFilter) return false;
-      if (subcategoryFilter && sub !== subcategoryFilter) return false;
+      if (categoryFilter.length > 0 && !categoryFilter.includes(type)) return false;
+      if (subcategoryFilter.length > 0 && !subcategoryFilter.includes(sub)) return false;
       return true;
     });
   }, [categoryFilter, subcategoryFilter]);
 
-  // Búsqueda difusa con Fuse.js
   const filteredCards = useMemo(() => {
     if (!searchTerm) return baseCards;
     const fuse = new Fuse(baseCards, { keys: ['name'], threshold: 0.3 });
