@@ -59,8 +59,13 @@ export default function CardsGrid() {
                 />
               </div>
 
+              <div className={styles.cardTitle} data-type={category}>
+                <h3>{name}</h3>
+              </div>
+
+
               <Tooltip text={name}>
-                <h3 className={styles.title}>{truncate(name)}</h3>
+                <p className={styles.title}>{truncate(name)}</p>
               </Tooltip>
 
               <span className={styles.year}>{año}</span>

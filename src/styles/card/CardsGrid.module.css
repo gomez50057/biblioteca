@@ -59,6 +59,57 @@
   color: var(--grisOsc);
 }
 
+.cardTitle {
+  position: absolute;
+  margin-right: 9px;
+  background: var(--vinoGradient);
+  z-index: 99;
+}
+
+.cardTitle h3 {
+  margin: 3px;
+  color: var(--blanco);
+  font-size: 0.6rem;
+  font-weight: 400;
+}
+
+.cardTitle[data-type="programas"] {
+  top: 45%;
+  right: 0;
+  width: 70%;
+}
+
+.cardTitle[data-type="planes"] {
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  text-align: center;
+}
+
+.cardTitle[data-type="guías"] {
+  bottom: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  text-align: center;
+}
+
+.cardTitle[data-type="atlas"] {
+  top: 56%;
+  right: 0;
+  width: 70%;
+}
+
+.cardTitle[data-type="informes"] {
+  bottom: 29%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  text-align: center;
+}
+
+
 /* Year badge */
 .year {
   position: absolute;
