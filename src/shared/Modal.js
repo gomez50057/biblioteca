@@ -4,15 +4,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Modal.module.css';
 
-/**
- * Modal component for displaying book details.
- *
- * Props:
- * - isOpen: boolean to control visibility
- * - onClose: function to call when overlay or close button is clicked
- * - booksData: object containing book info (types, name, año, descriptionBook, pdfSrc)
- * - children: optional additional content
- */
 export default function Modal({ isOpen, onClose, booksData, children }) {
   if (!isOpen || !booksData) return null;
   const { types, name, año, descriptionBook, pdfSrc } = booksData;
@@ -30,12 +21,12 @@ export default function Modal({ isOpen, onClose, booksData, children }) {
         {/* <p className={styles.year}>Año de Publicación: {año}</p> */}
 
         <div className={styles.actions}>
-          <a href={pdfSrc} target="_blank" rel="noopener noreferrer" className={styles.ctaView}>
+          <a href={pdfSrc} target="_blank" rel="noopener noreferrer" className={styles.cta}>
             <span>Visualizar</span>
           </a>
         </div>
         <div className={styles.actions}>
-          <a href={pdfSrc} download className={styles.ctaDownload}>
+          <a href={pdfSrc} download className={styles.cta}>
             <span>Descargar PDF</span>
             <svg width="13" height="10" viewBox="0 0 13 10">
               <path d="M1,5 L11,5" />
