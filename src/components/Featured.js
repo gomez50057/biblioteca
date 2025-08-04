@@ -57,7 +57,7 @@ export default function Featured() {
             tabIndex={0}
             onKeyPress={(e) => { if (e.key === 'Enter') openModal(name); }}
           >
-            <Tooltip text={name}>
+            <Tooltip text={name} offset="60%">
               <img
                 className={styles.image}
                 src={`${imgFeaturedPath}${imageFile}`}

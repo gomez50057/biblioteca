@@ -1,29 +1,21 @@
 'use client';
-
-import PropTypes from 'prop-types';
+import React from 'react';
 import styles from './Tooltip.module.css';
 
-/**
- * Tooltip component wraps children and shows a tooltip on hover.
- *
- * Props:
- * - text: string to display in the tooltip
- * - children: React node to wrap
- */
-export default function Tooltip({ children, text }) {
+export default function Tooltip({
+  text,
+  children,
+  offset = '125%'
+}) {
   return (
-    <div className={styles.container}>
+    <div
+      className={styles.container}
+      style={{ '--tooltip-bottom': offset }}
+    >
       {children}
-      <span className={styles.text}>{text}</span>
+      <span className={styles.text}>
+        {text}
+      </span>
     </div>
   );
 }
-
-Tooltip.propTypes = {
-  text: PropTypes.string.isRequired,
-  children: PropTypes.node,
-};
-
-Tooltip.defaultProps = {
-  children: null,
-};
