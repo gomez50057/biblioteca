@@ -39,7 +39,7 @@ export default function Hero() {
         <div className={styles.quoteBar} />
         <div className={styles.quoteText}>
           <h3 className={styles.quoteMain}>
-            "El conocimiento nos guía en la búsqueda de respuestas y soluciones para el bien común."
+            &quot;El conocimiento nos guía en la búsqueda de respuestas y soluciones para el bien común.&quot;
           </h3>
           <h3 className={styles.quoteAuthor}>- Julio Menchaca Salazar</h3>
         </div>

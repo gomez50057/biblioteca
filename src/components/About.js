@@ -7,7 +7,7 @@ import { datosBibliotecaDigital } from '@/utils/utils';
 const imgBasePath = '/img/';
 const duration = 4000; // ms
 
-const AboutUs = forwardRef((_, ref) => {
+const AboutSection = forwardRef(function AboutSection(_, ref) {
   const [count, setCount] = useState(0);
   const targetCount = datosBibliotecaDigital.cards.length;
 
@@ -37,7 +37,9 @@ const AboutUs = forwardRef((_, ref) => {
 
       <div className={styles.textContainer}>
         <p className={styles.text}><span>Bienvenido a la </span></p>
-        <h1><span className='spanDoarado'>Biblioteca Digital</span> de <span className='spanVino'>Planeación</span></h1>
+        <h1>
+          <span className="spanDoarado">Biblioteca Digital</span> de <span className="spanVino">Planeación</span>
+        </h1>
         <p className={styles.text}>
           Herramienta pública para el almacenamiento y consulta de documentos, programas, planes, informes, estudios, artículos, guías y demás instrumentos.
         </p>
@@ -63,4 +65,6 @@ const AboutUs = forwardRef((_, ref) => {
   );
 });
 
-export default AboutUs;
+AboutSection.displayName = 'AboutSection';
+
+export default AboutSection;

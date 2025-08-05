@@ -8,13 +8,14 @@ import FilterableCardsGrid from './card/FilterableCardsGrid';
 import CardsGrid from './card/CardsGrid';
 import styles from '@/styles/CardContent.module.css';
 
-const categories = ['planes', 'programas', 'guías', 'atlas', 'informes'];
+const categories = ['planes', 'programas', 'guías', 'atlas', 'informes', 'reglamentos'];
 const subMap = {
   planes: ['nacional', 'estatal', 'municipal'],
   programas: ['estatal', 'municipal', 'sectorial', 'institucional', 'especial'],
   guías: ['inexistente'],
   atlas: ['inexistente'],
   informes: ['nacional', 'estatal', 'municipal'],
+  reglamentos: ['inexistente'],
 };
 
 export default function CardContent() {
