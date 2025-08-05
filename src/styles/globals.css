@@ -11,6 +11,8 @@
   --vinoGradient: linear-gradient(-45deg, var(--vinoOsc), var(--vinoClr));
   --doradoGradient: linear-gradient(-45deg, var(--doradoOsc), var(--doradoClr));
   --grisGradient: linear-gradient(-45deg, var(--grisClr), var(--blanco));
+  --bg-start: rgba(255, 255, 255, 0.9);
+  --bg-end: rgba(255, 255, 255, 0.7);
 
   --planes: #A02142;
   --programas: #bc955b;
@@ -18,7 +20,6 @@
   --atlas: #5A7D4B;
   --informes: #707271;
   --reglamentos: #B5651D;
-
 }
 
 /* Root para swiper */

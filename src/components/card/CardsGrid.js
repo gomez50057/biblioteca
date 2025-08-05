@@ -25,7 +25,7 @@ export default function CardsGrid({ cards, openModal }) {
 
         return (
           <div
-            key={id || name}
+            key={id ?? name}
             className={[styles.card, bgClass].join(' ')}
             onClick={() => openModal(card)}
             data-category={category}
