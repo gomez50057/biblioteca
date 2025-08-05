@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^12.23.12",
     "fuse.js": "^7.1.0",
     "next": "15.4.2",
     "react": "19.1.0",
@@ -18,7 +19,6 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "eslint": "^9",
-    "eslint-config-next": "15.4.2",
-    "serve": "^14.2.0"
+    "eslint-config-next": "15.4.2"
   }
 }

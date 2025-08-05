@@ -24,12 +24,10 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  perspective: 1000px;
 }
 
 .item {
-  transform-style: preserve-3d;
-  transition: transform 0.5s ease;
+  transition: 0.2s ease;
   cursor: pointer;
 }
 
@@ -37,19 +35,6 @@
   width: 180px;
   height: auto;
   border-radius: 6%;
-  transition: transform 0.5s ease, filter 0.5s ease;
-}
-
-.item:hover {
-  transform: scale(1.2) rotateY(0deg);
-}
-
-.item:not(:hover) {
-  transform: rotateY(60deg);
-}
-
-.item:hover .image {
-  filter: brightness(1.2);
 }
 
 @media (max-width: 600px) {
