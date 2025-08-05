@@ -104,6 +104,13 @@
   text-align: center;
 }
 
+.cardTitle[data-type="reglamentos"] {
+  bottom: 29%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  text-align: center;
+}
 
 /* Year badge */
 .year {
@@ -119,51 +126,49 @@
 }
 
 .bg_planes .year {
-  color: #FFD700;
-  /* dorado brillante */
+  color: var(--planes);
 }
 
 .bg_planes .imageWrapper {
-  background: #FFC107;
-  /* dorado medio */
+  background: var(--planes);
 }
 
 .bg_programas .year {
-  color: #FF6347;
-  /* tomate */
+  color: var(--programas);
 }
 
 .bg_programas .imageWrapper {
-  background: #FF4500;
-  /* rojo anaranjado */
+  background: var(--programas);
 }
 
 .bg_guías .year {
-  color: #3CB371;
-  /* verde mar */
+  color: var(--guias);
 }
 
 .bg_guías .imageWrapper {
-  background: #2E8B57;
-  /* verde mar oscuro */
+  background: var(--guias);
 }
 
 .bg_atlas .year {
-  color: #1E90FF;
-  /* azul dodger */
+  color: var(--atlas);
 }
 
 .bg_atlas .imageWrapper {
-  background: #1C86EE;
-  /* azul intenso */
+  background: var(--atlas);
 }
 
 .bg_informes .year {
-  color: #708090;
-  /* gris pizarra */
+  color: var(--informes);
 }
 
 .bg_informes .imageWrapper {
-  background: #5A6970;
-  /* gris oscuro */
+  background: var(--informes);
+}
+
+.bg_reglamentos .year {
+  color: var(--reglamentos);
+}
+
+.bg_reglamentos .imageWrapper {
+  background: var(--reglamentos);
 }

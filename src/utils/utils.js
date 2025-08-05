@@ -3708,7 +3708,7 @@ export const datosBibliotecaDigital = {
       "booksIndex": "337"
     },
     {
-      "name": "Plan Municipal de Desarrollo. Mecanismos de Participación Ciudadana para la Consulta de los Pueblos y Comunidades Indígenas",
+      "name": "Mecanismos de Participación Ciudadana para la Consulta de los Pueblos y Comunidades Indígenas",
       "types": [
         "guías"
       ],
