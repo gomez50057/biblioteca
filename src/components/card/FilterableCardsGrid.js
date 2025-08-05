@@ -2,8 +2,6 @@
 import dynamic from 'next/dynamic';
 import React from 'react';
 import styles from '@/styles/card/FilterableCardsGrid.module.css';
-
-// React-select solo en cliente para evitar SSR mismatch
 const Select = dynamic(() => import('react-select'), { ssr: false });
 
 export default function FilterableCardsGrid({
