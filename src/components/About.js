@@ -1,6 +1,6 @@
 'use client';
 
-import { forwardRef, useState, useEffect } from 'react';
+import { forwardRef, useState, useEffect, useRef } from 'react';
 import styles from '@/styles/About.module.css';
 import { datosBibliotecaDigital } from '@/utils/utils';
 
@@ -10,23 +10,35 @@ const duration = 4000; // ms
 const AboutSection = forwardRef(function AboutSection(_, ref) {
   const [count, setCount] = useState(0);
   const targetCount = datosBibliotecaDigital.cards.length;
+  const containerRef = useRef(null);
 
   useEffect(() => {
-    if (targetCount <= 0) return;
-    let current = 0;
-    const interval = setInterval(() => {
-      current += 1;
-      setCount(current);
-      if (current >= targetCount) {
-        clearInterval(interval);
-      }
-    }, duration / targetCount);
-    return () => clearInterval(interval);
+    let observer;
+    if (containerRef.current) {
+      observer = new IntersectionObserver(
+        ([entry]) => {
+          if (entry.isIntersecting) {
+            let current = 0;
+            const interval = setInterval(() => {
+              current += 1;
+              setCount(current);
+              if (current >= targetCount) {
+                clearInterval(interval);
+              }
+            }, duration / targetCount);
+            observer.disconnect();
+          }
+        },
+        { threshold: 0.5 }
+      );
+      observer.observe(containerRef.current);
+    }
+    return () => observer && observer.disconnect();
   }, [targetCount]);
 
   return (
     <section ref={ref} id="about-section" className={styles.container}>
-      <div className={styles.imageContainer}>
+      <div ref={containerRef} className={styles.imageContainer}>
         <img
           src={`${imgBasePath}leyendo.webp`}
           alt="Persona leyendo nube de palabras"
