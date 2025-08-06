@@ -23,35 +23,45 @@ export default function FilterableCardsGrid({
   const [suggestions, setSuggestions] = useState([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
 
-  // Fuse para nombres de tarjetas
-  const namesIndex = useRef(
-    new Fuse(datosBibliotecaDigital.cards.map(c => c.name), {
-      threshold: 0.3,
+  // Creamos un índice Fuse sobre objetos enteros
+  const fuse = useRef(
+    new Fuse(datosBibliotecaDigital.cards, {
+      keys: [
+        { name: 'name', weight: 0.7 },
+        { name: 'description', weight: 0.3 },
+      ],
+      threshold: 0.4,
+      tokenize: true,
+      matchAllTokens: true,
       includeScore: true,
+      includeMatches: true,
     })
   );
 
   const handleSearchChange = e => {
     const term = e.target.value;
     setSearchTerm(term);
+
     if (term.trim() === '') {
       setSuggestions([]);
       setShowSuggestions(false);
       return;
     }
-    const results = namesIndex.current.search(term).slice(0, 5).map(r => r.item);
+
+    // Buscamos en Fuse y tomamos top 5
+    const results = fuse.current.search(term).slice(0, 5);
     setSuggestions(results);
     setShowSuggestions(true);
   };
 
-  const handleSuggestionClick = suggestion => {
-    setSearchTerm(suggestion);
+  const handleSuggestionClick = suggestionName => {
+    setSearchTerm(suggestionName);
     setSuggestions([]);
     setShowSuggestions(false);
     inputRef.current.focus();
   };
 
-  // Close suggestions on outside click
+  // Cerrar sugerencias al hacer click fuera
   useEffect(() => {
     const handleClickOutside = e => {
       if (inputRef.current && !inputRef.current.contains(e.target)) {
@@ -79,6 +89,26 @@ export default function FilterableCardsGrid({
     setSubcategoryFilter(values);
   };
 
+  // Función para resaltar el término buscado en la sugerencia
+  const highlight = (text, matches) => {
+    if (!matches) return text;
+    let lastIndex = 0;
+    const elements = [];
+    matches.forEach(({ indices }) => {
+      indices.forEach(([start, end]) => {
+        elements.push(text.slice(lastIndex, start));
+        elements.push(
+          <mark key={start} className={styles.highlight}>
+            {text.slice(start, end + 1)}
+          </mark>
+        );
+        lastIndex = end + 1;
+      });
+    });
+    elements.push(text.slice(lastIndex));
+    return elements;
+  };
+
   return (
     <div className={styles.filtersContainer}>
       <div className={styles.searchWrapper} ref={inputRef}>
@@ -90,15 +120,16 @@ export default function FilterableCardsGrid({
           className={styles.searchInput}
           autoComplete="off"
         />
+
         {showSuggestions && suggestions.length > 0 && (
           <ul className={styles.suggestionsList}>
-            {suggestions.map((s, i) => (
+            {suggestions.map((res, i) => (
               <li
                 key={i}
                 className={styles.suggestionItem}
-                onMouseDown={() => handleSuggestionClick(s)}
+                onMouseDown={() => handleSuggestionClick(res.item.name)}
               >
-                {s}
+                {highlight(res.item.name, res.matches?.filter(m => m.key === 'name'))}
               </li>
             ))}
           </ul>
