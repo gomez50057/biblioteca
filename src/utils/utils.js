@@ -1299,14 +1299,14 @@ export const datosBibliotecaDigital = {
       "booksIndex": "118"
     },
     {
-      "name": "Atlas de Riesgos del Municipio de Tula Allende Actualización  2023",
+      "name": "Atlas de Riesgos del Municipio de Tula Allende Actualización 2023",
       "types": [
         "atlas"
       ],
       "subcategory": "inexistente",
       "año": "2023",
       "descriptionBook": "El Atlas de Riesgos del Municipio de Tula Allende Actualización 2023 es un instrumento que permite conocer los peligros naturales y aquellos producidos por la sociedad y que pueden afectar a la población, así como a la infraestructura; de igual manera identifica los lugares que están en riesgo, tales como, zonas inundables, zonas susceptibles de una sequía, así como los sitios en donde hay probabilidad de deslaves, incendios, así como la vulnerabilidad social, zonas de conflicto vial y factores del cambio climático, entre otros; es un sistema que permite garantizar una planeación del territorio, reduciendo la posibilidad de riesgos en los proyectos estratégicos y de infraestructura.",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/TULA DE ALLENDE/Atlas de Riesgos del Municipio de Tula Allende Actualización  2023.pdf",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/TULA DE ALLENDE/Atlas de Riesgos del Municipio de Tula Allende Actualización 2023.pdf",
       "booksIndex": "119"
     },
     {
@@ -2729,14 +2729,14 @@ export const datosBibliotecaDigital = {
       "booksIndex": "248"
     },
     {
-      "name": "Programa Institucional de Desarrollo de la Comisión Estatal del  Agua y Alcantarillado 2023-2028",
+      "name": "Programa Institucional de Desarrollo de la Comisión Estatal del Agua y Alcantarillado 2023-2028",
       "types": [
         "programas"
       ],
       "subcategory": "institucional",
       "año": "2023",
       "descriptionBook": "El Programa Institucional de Desarrollo de la Comisión Estatal del Agua y Alcantarillado 2023-2028, se fundamenta en la Ley de Planeación y Prospectiva del Estado de Hidalgo, tiene como principal objetivo impulsar y consolidar la transformación de la gestión del recurso hídrico, tomando como base la problemática socioambiental de las regiones y municipios, en beneficio de las y los hidalguenses.",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Programas Institucionales/Programa Institucional de Desarrollo de la Comisión Estatal del  Agua y Alcantarillado 2023-2028.pdf",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Programas Institucionales/Programa Institucional de Desarrollo de la Comisión Estatal del Agua y Alcantarillado 2023-2028.pdf",
       "booksIndex": "249"
     },
     {
@@ -2773,14 +2773,14 @@ export const datosBibliotecaDigital = {
       "booksIndex": "252"
     },
     {
-      "name": "Programa Institucional de Desarrollo de la Operadora de Eventos del Estado  de Hidalgo 2023-2028",
+      "name": "Programa Institucional de Desarrollo de la Operadora de Eventos del Estado de Hidalgo 2023-2028",
       "types": [
         "programas"
       ],
       "subcategory": "institucional",
       "año": "2023",
       "descriptionBook": "El Programa Institucional de Desarrollo de la Operadora de Eventos del Estado de Hidalgo 2023-2028, constituye un elemento esencial del marco estratégico y normativo de la administración pública estatal, contribuyendo a uno de los objetivos primordiales en la presente administración de hacer de Hidalgo una potencia turística. Como parte de las diferentes acciones para lograrlo se establece el aprovechamiento de los bienes propiedad del Estado para planear, operar y organizar todo tipo de eventos para impulsar el desarrollo turístico de Hidalgo, promoviendo el desarrollo de actividades artísticas, la diversión y entretenimiento, promoción y conservación de manifestaciones culturales como carnavales, ferias populares, festividades tradicionales, muestras gastronómicas, festivales, entre otros; fomentando así la afluencia de visitantes brindando instalaciones y servicios accesibles, sostenibles e innovadores deportivas y culturales en los diferentes recintos a cargo del Gobierno del Estado de Hidalgo.",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Programas Institucionales/Programa Institucional de Desarrollo de la Operadora de Eventos del Estado  de Hidalgo 2023-2028.pdf",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Programas Institucionales/Programa Institucional de Desarrollo de la Operadora de Eventos del Estado de Hidalgo 2023-2028.pdf",
       "booksIndex": "253"
     },
     {
@@ -3543,25 +3543,25 @@ export const datosBibliotecaDigital = {
       "booksIndex": "322"
     },
     {
-      "name": "Programa Institucional de Desarrollo de la Universidad Tecnológica de la Sierra Hidalguense del Estado de Hidalgo  2023-2028",
+      "name": "Programa Institucional de Desarrollo de la Universidad Tecnológica de la Sierra Hidalguense del Estado de Hidalgo 2023-2028",
       "types": [
         "programas"
       ],
       "subcategory": "institucional",
       "año": "2023-2028",
       "descriptionBook": "Establecer acciones en torno a la formación de profesionistas de licenciatura y posgrado, para atención a las necesidades de los sectores privado y público por medio de servicios educativos innovadores y de calidad, a través del desarrollo tecnológico e investigación.",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Programas Institucionales/PID de la Universidad Tecnológica de la Sierra Hidalguense del Estado de Hidalgo  2023-2028.pdf",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Programas Institucionales/PID de la Universidad Tecnológica de la Sierra Hidalguense del Estado de Hidalgo 2023-2028.pdf",
       "booksIndex": "323"
     },
     {
-      "name": "Programa Institucional de Desarrollo de la Universidad Tecnológica de Mineral de la Reforma del Estado de Hidalgo  2023-2028",
+      "name": "Programa Institucional de Desarrollo de la Universidad Tecnológica de Mineral de la Reforma del Estado de Hidalgo 2023-2028",
       "types": [
         "programas"
       ],
       "subcategory": "institucional",
       "año": "2023-2028",
       "descriptionBook": "Garantizar la mejora de la educación, a través del aprendizaje fomentando la innovación y el desarrollo tecnológico, e impulsar la inclusión educativa y la equidad en el acceso a la educación.",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Programas Institucionales/PID de la Universidad Tecnológica de Mineral de la Reforma del Estado de Hidalgo  2023-2028.pdf",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Programas Institucionales/PID de la Universidad Tecnológica de Mineral de la Reforma del Estado de Hidalgo 2023-2028.pdf",
       "booksIndex": "324"
     },
     {
@@ -3626,7 +3626,7 @@ export const datosBibliotecaDigital = {
       ],
       "subcategory": "institucional",
       "año": "2023-2028",
-      "descriptionBook": "Fomentar una cultura laboral basada en el diálogo, la cooperación y la negociación, evitando la confrontación y los enfrentamientos, a  través de la resolución efectiva de disputas, se busca fortalecer la relación entre empleadores y empleados, promoviendo un ambiente de trabajo más armónico y productivo.",
+      "descriptionBook": "Fomentar una cultura laboral basada en el diálogo, la cooperación y la negociación, evitando la confrontación y los enfrentamientos, a través de la resolución efectiva de disputas, se busca fortalecer la relación entre empleadores y empleados, promoviendo un ambiente de trabajo más armónico y productivo.",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Programas Institucionales/Programa Institucional de Desarrollo del Centro de Conciliación Laboral del Estado de Hidalgo 2023-2028.pdf",
       "booksIndex": "330"
     },
@@ -3770,7 +3770,7 @@ export const datosBibliotecaDigital = {
       "subcategory": "nacional",
       "año": "2025 - 2030",
       "descriptionBook": "Es un documento estratégico que establece las directrices, objetivos y metas del gobierno de México para el desarrollo económico, social y político del país durante el periodo de 2025 a 2030. Este plan tiene como objetivo guiar las políticas públicas y la toma de decisiones del gobierno federal para lograr un crecimiento sostenido y equitativo, atendiendo las necesidades y demandas de la sociedad mexicana.",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Nacional/Plan Nacional de Desarrollo 2025 - 2030.pdf",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Nacional/Plan Nacional de Desarrollo 2025-2030.pdf",
       "booksIndex": "343"
     },
     {
@@ -3814,7 +3814,7 @@ export const datosBibliotecaDigital = {
       "subcategory": "institucional",
       "año": "2023-2028",
       "descriptionBook": "Fortalecer la calidad, relevancia y sostenibilidad de la educación superior que oferta la Universidad Tecnológica Minera de Zimapán, a través de la innovación, la mejora continua y la articulación con los sectores productivo y social, para formar profesionales competentes, emprendedores y socialmente responsables, que contribuyan al desarrollo económico, social y ambiental de la región y del país, en alineación con los Objetivos de Desarrollo Sostenible (ODS) y los planes de desarrollo estatal y sectorial.",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Programas Institucionales/Programa Institucional de Desarrollo de la Universidad Tecnológica Minera de Zimapán 2023 - 2028 .pdf",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Programas Institucionales/Programa Institucional de Desarrollo de la Universidad Tecnológica Minera de Zimapán 2023 - 2028.pdf",
       "booksIndex": "347"
     },
     {
@@ -3825,7 +3825,7 @@ export const datosBibliotecaDigital = {
       "subcategory": "institucional",
       "año": "2023-2028",
       "descriptionBook": "Contribuir al desarrollo social, científico, tecnológico, económico, y político de la nación, generando investigación en diversos ámbitos del conocimiento a través de un proceso colaborativo y dinámico en el que se descubre y explica el entorno, la planta académica dedicada a la investigación de la universidad se constituye como un cuerpo profesional altamente calificado, que cultivan y desarrollan un número importante y variado de líneas de investigación.\n\n",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Programas Institucionales/Programa Institucional de Desarrollo de la Universidad Politécnica de Francisco I Madero 2023 - 2028 .pdf",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Programas Institucionales/Programa Institucional de Desarrollo de la Universidad Politécnica de Francisco I Madero 2023 - 2028.pdf",
       "booksIndex": "348"
     },
     {
@@ -3835,8 +3835,8 @@ export const datosBibliotecaDigital = {
       ],
       "subcategory": "institucional",
       "año": "2023-2028",
-      "descriptionBook": "Documento que tiene como objetivo garantizar el acceso a servicios que contribuyan a la atención integral para las mujeres del Estado de Hidalgo, impulsar el empoderamiento y ejercicio pleno de los derechos de las mujeres del Estado de Hidalgo, mejorando su calidad de vida,  e impulsar estrategias que contribuyan al bienestar y desarrollo pleno e integral de la niñez.",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Programas Institucionales/Programa Institucional de Desarrollo de la Ciudad de las Mujeres del Estado de Hidalgo 2023 - 2028 .pdf",
+      "descriptionBook": "Documento que tiene como objetivo garantizar el acceso a servicios que contribuyan a la atención integral para las mujeres del Estado de Hidalgo, impulsar el empoderamiento y ejercicio pleno de los derechos de las mujeres del Estado de Hidalgo, mejorando su calidad de vida, e impulsar estrategias que contribuyan al bienestar y desarrollo pleno e integral de la niñez.",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Programas Institucionales/Programa Institucional de Desarrollo de la Ciudad de las Mujeres del Estado de Hidalgo 2023 - 2028.pdf",
       "booksIndex": "349"
     },
     {
@@ -3853,7 +3853,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Acatlán 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -3862,163 +3862,163 @@ export const datosBibliotecaDigital = {
       "booksIndex": "351"
     },
     {
-      "name": "Plan Municipal de Desarrollo de Acaxochitlán  2024-2027",
+      "name": "Plan Municipal de Desarrollo de Acaxochitlán 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Acaxochitlán  2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/ACAXOCHITLÁN/Plan Municipal de Desarrollo de Acaxochitlán  2024-2027.pdf",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Acaxochitlán 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/ACAXOCHITLÁN/Plan Municipal de Desarrollo de Acaxochitlán 2024-2027.pdf",
       "booksIndex": "352"
     },
     {
-      "name": "Plan Municipal de Desarrollo de Actopan  2024-2027",
+      "name": "Plan Municipal de Desarrollo de Actopan 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Actopan  2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/ACTOPAN/Plan Municipal de Desarrollo de Actopan  2024-2027.pdf",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Actopan 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/ACTOPAN/Plan Municipal de Desarrollo de Actopan 2024-2027.pdf",
       "booksIndex": "353"
     },
     {
-      "name": "Plan Municipal de Desarrollo de Agua Blanca de Iturbide  2024-2027",
+      "name": "Plan Municipal de Desarrollo de Agua Blanca de Iturbide 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Agua Blanca de Iturbide  2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/AGUA BLANCA DE ITURBIDE/Plan Municipal de Desarrollo de Agua Blanca de Iturbide  2024-2027.pdf",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Agua Blanca de Iturbide 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/AGUA BLANCA DE ITURBIDE/Plan Municipal de Desarrollo de Agua Blanca de Iturbide 2024-2027.pdf",
       "booksIndex": "354"
     },
     {
-      "name": "Plan Municipal de Desarrollo de Ajacuba  2024-2027",
+      "name": "Plan Municipal de Desarrollo de Ajacuba 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Ajacuba  2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/AJACUBA/Plan Municipal de Desarrollo de Ajacuba  2024-2027.pdf",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Ajacuba 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/AJACUBA/Plan Municipal de Desarrollo de Ajacuba 2024-2027.pdf",
       "booksIndex": "355"
     },
     {
-      "name": "Plan Municipal de Desarrollo de Alfajayucan  2024-2027",
+      "name": "Plan Municipal de Desarrollo de Alfajayucan 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Alfajayucan  2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/ALFAJAYUCAN/Plan Municipal de Desarrollo de Alfajayucan  2024-2027.pdf",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Alfajayucan 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/ALFAJAYUCAN/Plan Municipal de Desarrollo de Alfajayucan 2024-2027.pdf",
       "booksIndex": "356"
     },
     {
-      "name": "Plan Municipal de Desarrollo de Almoloya  2024-2027",
+      "name": "Plan Municipal de Desarrollo de Almoloya 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Almoloya  2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/ALMOLOYA/Plan Municipal de Desarrollo de Almoloya  2024-2027.pdf",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Almoloya 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/ALMOLOYA/Plan Municipal de Desarrollo de Almoloya 2024-2027.pdf",
       "booksIndex": "357"
     },
     {
-      "name": "Plan Municipal de Desarrollo de Apan  2024-2027",
+      "name": "Plan Municipal de Desarrollo de Apan 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Apan  2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/APAN/Plan Municipal de Desarrollo de Apan  2024-2027.pdf",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Apan 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/APAN/Plan Municipal de Desarrollo de Apan 2024-2027.pdf",
       "booksIndex": "358"
     },
     {
-      "name": "Plan Municipal de Desarrollo de El Arenal  2024-2027",
+      "name": "Plan Municipal de Desarrollo de El Arenal 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de El Arenal  2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/EL ARENAL/Plan Municipal de Desarrollo de El Arenal  2024-2027.pdf",
+      "descriptionBook": "El Plan Municipal de Desarrollo de El Arenal 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/EL ARENAL/Plan Municipal de Desarrollo de El Arenal 2024-2027.pdf",
       "booksIndex": "359"
     },
     {
-      "name": "Plan Municipal de Desarrollo de Atitalaquia  2024-2027",
+      "name": "Plan Municipal de Desarrollo de Atitalaquia 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Atitalaquia  2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/ATITALAQUIA/Plan Municipal de Desarrollo de Atitalaquia  2024-2027.pdf",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Atitalaquia 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/ATITALAQUIA/Plan Municipal de Desarrollo de Atitalaquia 2024-2027.pdf",
       "booksIndex": "360"
     },
     {
-      "name": "Plan Municipal de Desarrollo de Atlapexco  2024-2027",
+      "name": "Plan Municipal de Desarrollo de Atlapexco 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Atlapexco  2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/ATLAPEXCO/Plan Municipal de Desarrollo de Atlapexco  2024-2027.pdf",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Atlapexco 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/ATLAPEXCO/Plan Municipal de Desarrollo de Atlapexco 2024-2027.pdf",
       "booksIndex": "361"
     },
     {
-      "name": "Plan Municipal de Desarrollo Atotonilco el Grande  2024-2027",
+      "name": "Plan Municipal de Desarrollo Atotonilco el Grande 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo Atotonilco el Grande  2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "descriptionBook": "El Plan Municipal de Desarrollo Atotonilco el Grande 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/ATOTONILCO EL GRANDE/Plan Municipal de Desarrollo de Atotonilco el Grande 2024-2027.pdf",
       "booksIndex": "362"
     },
     {
-      "name": "Plan Municipal de Desarrollo Atotonilco de Tula  2024-2027",
+      "name": "Plan Municipal de Desarrollo Atotonilco de Tula 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo Atotonilco de Tula  2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "descriptionBook": "El Plan Municipal de Desarrollo Atotonilco de Tula 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/ATOTONILCO DE TULA/Plan Municipal de Desarrollo de Atotonilco de Tula 2024-2027.pdf",
       "booksIndex": "363"
     },
     {
-      "name": "Plan Municipal de Desarrollo de Calnali  2024-2027",
+      "name": "Plan Municipal de Desarrollo de Calnali 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Calnali  2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/CALNALI/Plan Municipal de Desarrollo de Calnali  2024-2027.pdf",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Calnali 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/CALNALI/Plan Municipal de Desarrollo de Calnali 2024-2027.pdf",
       "booksIndex": "364"
     },
     {
-      "name": "Plan Municipal de Desarrollo de Cardonal  2024-2027",
+      "name": "Plan Municipal de Desarrollo de Cardonal 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Cardonal  2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/CARDONAL/Plan Municipal de Desarrollo de Cardonal  2024-2027.pdf",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Cardonal 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/CARDONAL/Plan Municipal de Desarrollo de Cardonal 2024-2027.pdf",
       "booksIndex": "365"
     },
     {
       "name": "Plan Municipal de Desarrollo de Chapantongo 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4029,7 +4029,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Chapulhuacan 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4040,7 +4040,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Chilcuautla 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4049,20 +4049,20 @@ export const datosBibliotecaDigital = {
       "booksIndex": "368"
     },
     {
-      "name": "Plan Municipal de Desarrollo de Eloxochitlán 22024-2027",
+      "name": "Plan Municipal de Desarrollo de Eloxochitlán 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
       "descriptionBook": "El Plan Municipal de Desarrollo de Eloxochitlán 22024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/ELOXOCHITLÁN/Plan Municipal de Desarrollo de Eloxochitlán 22024-2027.pdf",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/ELOXOCHITLÁN/Plan Municipal de Desarrollo de Eloxochitlán 2024-2027.pdf",
       "booksIndex": "369"
     },
     {
       "name": "Plan Municipal de Desarrollo de Emiliano Zapata 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4073,7 +4073,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Epazoyucan 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4084,7 +4084,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Francisco I. Madero 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4095,7 +4095,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Huasca de Ocampo 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4106,7 +4106,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Huautla 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4117,7 +4117,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Huazalingo 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4128,7 +4128,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Huehuetla 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4139,7 +4139,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Huejutla de Reyes 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4150,7 +4150,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Huichapan 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4161,7 +4161,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Ixmiquilpan 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4172,7 +4172,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Jacala de Ledezma 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4183,7 +4183,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Jaltocán 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4194,7 +4194,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Juarez Hidalgo 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4205,7 +4205,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Lolotla 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4216,7 +4216,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Metepec 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4227,7 +4227,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de San Agustin Metzquititlan 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4238,7 +4238,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Metztitlán 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4249,7 +4249,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Mineral del Chico 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4260,7 +4260,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Mineral del Monte 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4271,7 +4271,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de La Misión 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4282,7 +4282,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Mixquiahuala de Juárez 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4293,7 +4293,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Molango de Escamilla 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4304,7 +4304,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Nicolás Flores 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4315,7 +4315,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Nopala de Villagrán 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4326,7 +4326,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Omitlán de Juárez 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4337,7 +4337,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de San Felipe Orizatlán 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4348,7 +4348,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Pacula 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4359,7 +4359,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Pachuca de Soto 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4370,7 +4370,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Pisaflores 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4381,7 +4381,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Progreso de Obregón 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4392,7 +4392,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Mineral de la Reforma 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4403,7 +4403,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de San Agustín Tlaxiaca 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4414,7 +4414,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de San Bartolo Tutotepec 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4425,117 +4425,117 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de San Salvador 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de San Salvador 2024-2027  es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "descriptionBook": "El Plan Municipal de Desarrollo de San Salvador 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/SAN SALVADOR/Plan Municipal de Desarrollo de San Salvador 2024-2027.pdf",
       "booksIndex": "403"
     },
     {
       "name": "Plan Municipal de Desarrollo de Santiago de Anaya 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Santiago de Anaya 2024-2027  es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Santiago de Anaya 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/SANTIAGO DE ANAYA/Plan Municipal de Desarrollo de Santiago de Anaya 2024-2027.pdf",
       "booksIndex": "404"
     },
     {
       "name": "Plan Municipal de Desarrollo de Santiago Tulantepec de Lugo Guerrero 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Santiago Tulantepec de Lugo Guerrero 2024-2027  es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Santiago Tulantepec de Lugo Guerrero 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/SANTIAGO TULANTEPEC DE LUGO GUERRERO/Plan Municipal de Desarrollo de Santiago Tulantepec de Lugo Guerrero 2024-2027.pdf",
       "booksIndex": "405"
     },
     {
       "name": "Plan Municipal de Desarrollo de Singuilucan 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Singuilucan 2024-2027  es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Singuilucan 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/SINGUILUCAN/Plan Municipal de Desarrollo de Singuilucan 2024-2027.pdf",
       "booksIndex": "406"
     },
     {
       "name": "Plan Municipal de Desarrollo de Tasquillo 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Tasquillo 2024-2027  es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Tasquillo 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/TASQUILLO/Plan Municipal de Desarrollo de Tasquillo 2024-2027.pdf",
       "booksIndex": "407"
     },
     {
       "name": "Plan Municipal de Desarrollo de Tecozautla 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Tecozautla 2024-2027  es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Tecozautla 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/TECOZAUTLA/Plan Municipal de Desarrollo de Tecozautla 2024-2027.pdf",
       "booksIndex": "408"
     },
     {
       "name": "Plan Municipal de Desarrollo de Tenango de Doria 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Tenango de Doria 2024-2027  es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Tenango de Doria 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/TENANGO DE DORIA/Plan Municipal de Desarrollo de Tenango de Doria 2024-2027.pdf",
       "booksIndex": "409"
     },
     {
       "name": "Plan Municipal de Desarrollo de Tepeapulco 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Tepeapulco 2024-2027  es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Tepeapulco 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/TEPEAPULCO/Plan Municipal de Desarrollo de Tepeapulco 2024-2027.pdf",
       "booksIndex": "410"
     },
     {
       "name": "Plan Municipal de Desarrollo de Tepehuacán de Guerrero 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Tepehuacán de Guerrero 2024-2027  es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Tepehuacán de Guerrero 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/TEPEHUACÁN DE GUERRERO/Plan Municipal de Desarrollo de Tepehuacán de Guerrero 2024-2027.pdf",
       "booksIndex": "411"
     },
     {
       "name": "Plan Municipal de Desarrollo de Tepeji del Río de Ocampo 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El  Plan Municipal de Desarrollo de Tepeji del Río de Ocampo 2024-2027  es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Tepeji del Río de Ocampo 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/TEPEJI DEL RÍO DE OCAMPO/Plan Municipal de Desarrollo de Tepeji del Río de Ocampo 2024-2027.pdf",
       "booksIndex": "412"
     },
     {
       "name": "Plan Municipal de Desarrollo de Tepetitlán 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4546,40 +4546,40 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Tetepango 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Tetepango 2024-2027  es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Tetepango 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/TETEPANGO/Plan Municipal de Desarrollo de Tetepango 2024-2027.pdf",
       "booksIndex": "414"
     },
     {
       "name": "Plan Municipal de Desarrollo de Villa de Tezontepec 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Villa de Tezontepec 2024-2027  es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Villa de Tezontepec 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/VILLA DE TEZONTEPEC/Plan Municipal de Desarrollo de Villa de Tezontepec 2024-2027.pdf",
       "booksIndex": "415"
     },
     {
       "name": "Plan Municipal de Desarrollo de Tezontepec de Aldama 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
-      "descriptionBook": "El Plan Municipal de Desarrollo de Tezontepec de Aldama 2024-2027  es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Tezontepec de Aldama 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial. ",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/TEZONTEPEC DE ALDAMA/Plan Municipal de Desarrollo de Tezontepec de Aldama 2024-2027.pdf",
       "booksIndex": "416"
     },
     {
       "name": "Plan Municipal de Desarrollo de Tianguistengo 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4590,7 +4590,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Tizayuca 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4601,7 +4601,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Tlahuelilpan 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4612,7 +4612,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Tlahuiltepa 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4623,7 +4623,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Tlanalapa 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4634,7 +4634,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Tlanchinol 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4645,7 +4645,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Tlaxcoapan 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4656,7 +4656,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Tolcayuca 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4667,7 +4667,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Tula de Allende 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4678,7 +4678,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Tulancingo de Bravo 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4689,7 +4689,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Xochiatipan 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4700,7 +4700,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Xochicoatlán 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4711,7 +4711,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Yahualica 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4722,7 +4722,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Zacualtipán de Ángeles 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4733,7 +4733,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Zapotlan de Juarez 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4744,7 +4744,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Zempoala 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4755,7 +4755,7 @@ export const datosBibliotecaDigital = {
     {
       "name": "Plan Municipal de Desarrollo de Zimapán 2024-2027",
       "types": [
-        "programas"
+        "planes"
       ],
       "subcategory": "municipal",
       "año": "2024-2027",
@@ -4782,9 +4782,9 @@ export const datosBibliotecaDigital = {
       "subcategory": "nacional",
       "año": "2025",
       "descriptionBook": "El Informe Subnacional Voluntario (ISV) es un documento elaborado de manera voluntaria por los gobiernos estatales o municipales, con el objetivo de evaluar y dar seguimiento al cumplimiento de la Agenda 2030 y sus 17 Objetivos de Desarrollo Sostenible (ODS) a nivel local. Este informe permite mostrar los avances, desafíos y buenas prácticas en temas como salud, educación, igualdad, medio ambiente, entre otros.",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Nacional/Plan Nacional de Desarrollo 2025 - 2030.pdf.pdf",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Nacional/Plan Nacional de Desarrollo 2025-2030.pdf",
       "booksIndex": "435"
     }
   ]
-};  
+};
 
