@@ -4784,6 +4784,17 @@ export const datosBibliotecaDigital = {
       "descriptionBook": "El Informe Subnacional Voluntario (ISV) es un documento elaborado de manera voluntaria por los gobiernos estatales o municipales, con el objetivo de evaluar y dar seguimiento al cumplimiento de la Agenda 2030 y sus 17 Objetivos de Desarrollo Sostenible (ODS) a nivel local. Este informe permite mostrar los avances, desafíos y buenas prácticas en temas como salud, educación, igualdad, medio ambiente, entre otros.",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Nacional/Plan Nacional de Desarrollo 2025-2030.pdf",
       "booksIndex": "435"
+    },
+    {
+      "name": "Manual Práctico para el establecimiento de Viveros Municipales ",
+      "types": [
+        "guías"
+      ],
+      "subcategory": "municipal",
+      "año": "2025",
+      "descriptionBook": "Documento técnico y operativo que proporciona instrucciones claras y detalladas para planificar, instalar, operar y mantener un vivero administrado por los gobiernos locales. Su objetivo es guiar a técnicos, trabajadores municipales, agricultores o comunidades en el proceso de producción de plantas (especialmente nativas, forestales, ornamentales o frutales) para apoyar proyectos de reforestación, paisajismo urbano, agricultura sostenible o recuperación ambiental.",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Guías/Manual Práctico para el establecimiento de Viveros Municipales.pdf",
+      "booksIndex": "435"
     }
   ]
 };
