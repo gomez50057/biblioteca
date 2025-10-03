@@ -4786,7 +4786,7 @@ export const datosBibliotecaDigital = {
       "booksIndex": "435"
     },
     {
-      "name": "Manual Práctico para el establecimiento de Viveros Municipales ",
+      "name": "Manual Práctico para el establecimiento de Viveros Municipales",
       "types": [
         "guías"
       ],
@@ -4795,6 +4795,17 @@ export const datosBibliotecaDigital = {
       "descriptionBook": "Documento técnico y operativo que proporciona instrucciones claras y detalladas para planificar, instalar, operar y mantener un vivero administrado por los gobiernos locales. Su objetivo es guiar a técnicos, trabajadores municipales, agricultores o comunidades en el proceso de producción de plantas (especialmente nativas, forestales, ornamentales o frutales) para apoyar proyectos de reforestación, paisajismo urbano, agricultura sostenible o recuperación ambiental.",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Guías/Manual Práctico para el establecimiento de Viveros Municipales.pdf",
       "booksIndex": "435"
+    },
+    {
+      "name": "Plan Municipal de Desarrollo de Cuautepec de Hinojosa 2024-2027",
+      "types": [
+        "planes"
+      ],
+      "subcategory": "municipal",
+      "año": "2024-2027",
+      "descriptionBook": "El Plan Municipal de Desarrollo de Cuautepec de Hinojosa 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial.",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/CUAUTEPEC DE HINOJOSA/Plan Municipal de Desarrollo de Cuautepec de Hinojosa 2024-2027.pdf",
+      "booksIndex": "436"
     }
   ]
 };
