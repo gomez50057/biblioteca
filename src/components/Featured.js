@@ -12,7 +12,7 @@ const imgFeaturedPath = '/img/caratulas/destacadas/';
 const featuredList = [
   { name: 'Plan Estatal de Desarrollo 2022-2028', imageFile: 'PLAN_ESTATAL.webp' },
   { name: 'Guía Técnica-Metodológica para la Elaboración del Programa Municipal de Infraestructura Verde', imageFile: 'Guía Técnica-Metodológica para la Elaboración del Programa Municipal de Infraestructura Verde.webp' },
-  { name: '2do Informe de Gobierno Estatal 2022-2028', imageFile: 'segundo.webp' },
+  { name: '3er Informe de Gobierno Estatal 2022-2028', imageFile: 'tercer.webp' },
   { name: 'Guía Metodológica para la Elaboración de los Programas Sectoriales y Especiales 2022-2028', imageFile: 'LINEAMIENTOS_PARA_LA_ACTUALIZACION.webp' },
 
 ];

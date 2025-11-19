@@ -3680,7 +3680,7 @@ export const datosBibliotecaDigital = {
         "informes"
       ],
       "subcategory": "estatal",
-      "año": "2023-2028",
+      "año": "2022-2028",
       "descriptionBook": "Documento que ofrece un balance del estado general, que guarda la Administración Pública Estatal en su segundo año de acciones empredidas.",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Informes del gobernador/2do Informe de Gobierno Estatal 2022-2028.pdf",
       "booksIndex": "335"
@@ -4806,6 +4806,28 @@ export const datosBibliotecaDigital = {
       "descriptionBook": "El Plan Municipal de Desarrollo de Cuautepec de Hinojosa 2024-2027 es un documento estratégico clave para transformar la realidad local desde una visión estratégica y participativa. Al abordar de manera integral los principales retos del municipio, este instrumento permite orientar las decisiones públicas con base en prioridades reales, generar bienestar social, impulsar el desarrollo económico y fortalecer la identidad territorial.",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/CUAUTEPEC DE HINOJOSA/Plan Municipal de Desarrollo de Cuautepec de Hinojosa 2024-2027.pdf",
       "booksIndex": "436"
+    },
+    {
+      "name": "3er Informe de Gobierno Estatal 2022-2028",
+      "types": [
+        "informes"
+      ],
+      "subcategory": "estatal",
+      "año": "2022-2028",
+      "descriptionBook": "Documento que presenta los avances, resultados y acciones realizadas durante su tercer año al frente del estado de Hidalgo. Resume logros en infraestructura, desarrollo social, seguridad, educación y finanzas públicas, mostrando cómo se han utilizado los recursos. ",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Informes del gobernador/3er Informe de Gobierno Estatal 2022-2028.pdf",
+      "booksIndex": "437"
+    },
+    {
+      "name": "Programa Especial para el Desarrollo Integral de Recuperación Académica 2024-2028",
+      "types": [
+        "programas"
+      ],
+      "subcategory": "especial",
+      "año": "2024-2028",
+      "descriptionBook": "El Programa Especial para el Desarrollo Integral de Recuperación Académica 2024-2028 busca atender los retrasos en los aprendizajes, garantizar una educación de calidad, inclusiva y equitativa, y reducir brechas de desigualdad educativa territoriales y sociales.",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Programas Sectoriales y Especiales/Programa Especial para el Desarrollo Integral de Recuperación Académica 2024-2028.pdf",
+      "booksIndex": "438"
     }
   ]
 };
