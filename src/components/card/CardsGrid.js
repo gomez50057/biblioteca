@@ -12,6 +12,7 @@ const typeToFile = {
   informes: 'informes.jpg',
   planes: 'planes.jpg',
   programas: 'programas.jpg',
+  reglamentos: 'reglamentos.jpg',
 };
 
 export default function CardsGrid({ cards, openModal }) {

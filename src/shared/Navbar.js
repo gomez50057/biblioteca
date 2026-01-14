@@ -19,7 +19,7 @@ const NAV_ITEMS = [
   //     { label: "Planeación para el futuro del agua", href: "/planeacion-para-el-futuro-del-agua" },
   //   ],
   // },
-  { label: "Biblioteca", href: "/login" },
+  // { label: "Biblioteca", href: "/login" },
   // {
   //   label: "Tecnificación y nivelación parcelaria",
   //   href: "https://bancodeproyectos.hidalgo.gob.mx/planhidrico/login/",
