@@ -4828,6 +4828,17 @@ export const datosBibliotecaDigital = {
       "descriptionBook": "El Programa Especial para el Desarrollo Integral de Recuperación Académica 2024-2028 busca atender los retrasos en los aprendizajes, garantizar una educación de calidad, inclusiva y equitativa, y reducir brechas de desigualdad educativa territoriales y sociales.",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Programas Sectoriales y Especiales/Programa Especial para el Desarrollo Integral de Recuperación Académica 2024-2028.pdf",
       "booksIndex": "438"
+    },
+    {
+      "name": "Programa Municipal de Desarrollo Urbano de Tlaxcoapan Actualización 2025",
+      "types": [
+        "programas"
+      ],
+      "subcategory": "municipal",
+      "año": "2025",
+      "descriptionBook": "El Programa Municipal de Desarrollo Urbano de Tlaxcoapan es el instrumento de planeación que orienta el crecimiento y ordenamiento del territorio del municipio, estableciendo las políticas, estrategias y lineamientos para el uso del suelo, la infraestructura, la movilidad y el equipamiento urbano. Su objetivo es promover un desarrollo urbano ordenado, sustentable y equilibrado, que garantice una mejor calidad de vida para la población, prevenga riesgos y asegure la conservación del entorno ambiental, alineándose con la planeación estatal y nacional.",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/TLAXCOAPAN/Programa Municipal de Desarrollo Urbano de Tlaxcoapan Actualización 2025.pdf",
+      "booksIndex": "439"
     }
   ]
 };

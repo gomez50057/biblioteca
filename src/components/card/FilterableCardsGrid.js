@@ -11,11 +11,11 @@ const Select = dynamic(() => import('react-select'), { ssr: false });
 
 export default function FilterableCardsGrid({
   searchTerm = '',
-  setSearchTerm = () => {},
+  setSearchTerm = () => { },
   categoryFilter = [],
-  setCategoryFilter = () => {},
+  setCategoryFilter = () => { },
   subcategoryFilter = [],
-  setSubcategoryFilter = () => {},
+  setSubcategoryFilter = () => { },
   categories = [],
   subMap = {},
 }) {
@@ -58,7 +58,7 @@ export default function FilterableCardsGrid({
     setSearchTerm(suggestionName);
     setSuggestions([]);
     setShowSuggestions(false);
-    inputRef.current.focus();
+    inputRef.current?.focus();
   };
 
   // Cerrar sugerencias al hacer click fuera
@@ -90,22 +90,41 @@ export default function FilterableCardsGrid({
   };
 
   // Función para resaltar el término buscado en la sugerencia
-  const highlight = (text, matches) => {
-    if (!matches) return text;
+  const highlight = (text, matches, keyPrefix = 'h') => {
+    if (!matches?.length) return text;
+
+    // Fusiona todos los indices del campo (por si Fuse entrega varios match objects)
+    const ranges = matches
+      .flatMap(m => m?.indices || [])
+      .filter(r => Array.isArray(r) && r.length === 2)
+      .sort((a, b) => a[0] - b[0]);
+
+    if (ranges.length === 0) return text;
+
     let lastIndex = 0;
     const elements = [];
-    matches.forEach(({ indices }) => {
-      indices.forEach(([start, end]) => {
+
+    ranges.forEach(([start, end], idx) => {
+      if (start > lastIndex) {
         elements.push(text.slice(lastIndex, start));
-        elements.push(
-          <mark key={start} className={styles.highlight}>
-            {text.slice(start, end + 1)}
-          </mark>
-        );
-        lastIndex = end + 1;
-      });
+      }
+
+      elements.push(
+        <mark
+          key={`${keyPrefix}-${start}-${end}-${idx}`}
+          className={styles.highlight}
+        >
+          {text.slice(start, end + 1)}
+        </mark>
+      );
+
+      lastIndex = end + 1;
     });
-    elements.push(text.slice(lastIndex));
+
+    if (lastIndex < text.length) {
+      elements.push(text.slice(lastIndex));
+    }
+
     return elements;
   };
 
@@ -123,15 +142,24 @@ export default function FilterableCardsGrid({
 
         {showSuggestions && suggestions.length > 0 && (
           <ul className={styles.suggestionsList}>
-            {suggestions.map((res, i) => (
-              <li
-                key={i}
-                className={styles.suggestionItem}
-                onMouseDown={() => handleSuggestionClick(res.item.name)}
-              >
-                {highlight(res.item.name, res.matches?.filter(m => m.key === 'name'))}
-              </li>
-            ))}
+            {suggestions.map((res, i) => {
+              const stableKey =
+                res?.refIndex != null
+                  ? `sugg-${res.refIndex}`
+                  : `sugg-${res?.item?.name ?? 'item'}-${i}`;
+
+              const nameMatches = res.matches?.filter(m => m.key === 'name');
+
+              return (
+                <li
+                  key={stableKey}
+                  className={styles.suggestionItem}
+                  onMouseDown={() => handleSuggestionClick(res.item.name)}
+                >
+                  {highlight(res.item.name, nameMatches, stableKey)}
+                </li>
+              );
+            })}
           </ul>
         )}
       </div>
