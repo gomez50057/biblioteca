@@ -11,7 +11,7 @@ import styles from '@/styles/CardContent.module.css';
 const categories = ['planes', 'programas', 'guías', 'atlas', 'informes', 'reglamentos'];
 const subMap = {
   planes: ['nacional', 'estatal', 'municipal'],
-  programas: ['estatal', 'municipal', 'sectorial', 'institucional', 'especial'],
+  programas: ['estatal', 'municipal', 'sectorial', 'institucional', 'especial', 'metropolitano'],
   guías: ['inexistente'],
   atlas: ['inexistente'],
   informes: ['nacional', 'estatal', 'municipal'],

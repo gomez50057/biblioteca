@@ -4839,7 +4839,30 @@ export const datosBibliotecaDigital = {
       "descriptionBook": "El Programa Municipal de Desarrollo Urbano de Tlaxcoapan es el instrumento de planeación que orienta el crecimiento y ordenamiento del territorio del municipio, estableciendo las políticas, estrategias y lineamientos para el uso del suelo, la infraestructura, la movilidad y el equipamiento urbano. Su objetivo es promover un desarrollo urbano ordenado, sustentable y equilibrado, que garantice una mejor calidad de vida para la población, prevenga riesgos y asegure la conservación del entorno ambiental, alineándose con la planeación estatal y nacional.",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/TLAXCOAPAN/Programa Municipal de Desarrollo Urbano de Tlaxcoapan Actualización 2025.pdf",
       "booksIndex": "439"
+    },
+    {
+      "name": "Actualización del Programa de Desarrollo Urbano y Ordenamiento Territorial de la Zona Metropolitana de Pachuca, Hidalgo (PDUyOT ZMP)",
+      "types": [
+        "programas"
+      ],
+      "subcategory": "metropolitano",
+      "año": "2024",
+      "descriptionBook": "La actualización del Programa de Desarrollo Urbano y Ordenamiento Territorial de la Zona Metropolitana de Pachuca, Hidalgo (PDUyOT ZMP) busca regular y dirigir el desarrollo urbano de la Zona Metropolitana de Pachuca, estableciendo lineamientos que permitan: Organizar el crecimiento de la mancha urbana, coordinar políticas entre los municipios metropolitanos, mejorar la calidad de vida de la población, y proteger el territorio y los recursos naturales.En conclusión, funciona como la guía estratégica que define cómo y hacia dónde debe crecer la metrópoli, evitando el desorden urbano y promoviendo un desarrollo equilibrado.",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Metropolitano/Programas/Actualización del Programa de Desarrollo Urbano y Ordenamiento Territorial de la Zona Metropolitana de Pachuca, Hidalgo (PDUyOT ZMP).pdf",
+      "booksIndex": "440"
+    },
+    {
+      "name": "Programa de Ordenación de la Zona Metropolitana del Valle de México",
+      "types": [
+        "programas"
+      ],
+      "subcategory": "metropolitano",
+      "año": "1999",
+      "descriptionBook": "El Programa de Ordenación de la Zona Metropolitana del Valle de México busca principalmente establecer las bases para ordenar el territorio de la Zona Metropolitana del Valle de México, mediante políticas y estrategias que permiten mejorar la calidad de vida de la población metropolitana, orientar el crecimiento urbano de forma equilibrada, mejorar la accesibilidad y la movilidad en la metrópoli y coordinar acciones entre el Gobierno Federal, el entonces Distrito Federal y el Estado de México. Uno de sus enfoques es crear condiciones territoriales que favorezcan el desarrollo urbano y la movilidad regional.",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Metropolitano/Programas/Programa de Ordenación de la Zona Metropolitana del Valle de México.pdf",
+      "booksIndex": "441"
     }
+    
   ]
 };
 
