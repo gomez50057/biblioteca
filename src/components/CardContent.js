@@ -1,7 +1,6 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
-import Fuse from 'fuse.js';
+import React, { useMemo, useState } from 'react';
 import Modal from '@/shared/Modal';
 import { datosBibliotecaDigital } from '@/utils/utils';
 import FilterableCardsGrid from './card/FilterableCardsGrid';
@@ -9,6 +8,7 @@ import CardsGrid from './card/CardsGrid';
 import styles from '@/styles/CardContent.module.css';
 
 const categories = ['planes', 'programas', 'guías', 'atlas', 'informes', 'reglamentos'];
+
 const subMap = {
   planes: ['nacional', 'estatal', 'municipal'],
   programas: ['estatal', 'municipal', 'sectorial', 'institucional', 'especial', 'metropolitano'],
@@ -24,21 +24,25 @@ export default function CardContent() {
   const [categoryFilter, setCategoryFilter] = useState([]);
   const [subcategoryFilter, setSubcategoryFilter] = useState([]);
 
+  /*  */
+  /* Filtrado base solo por categoría y subcategoría */
+  /*  */
   const baseCards = useMemo(() => {
     return datosBibliotecaDigital.cards.filter(card => {
-      const type = card.types[0]?.toLowerCase() || '';
+      const type = card.types?.[0]?.toLowerCase() || '';
       const sub = card.subcategory?.toLowerCase() || '';
-      if (categoryFilter.length > 0 && !categoryFilter.includes(type)) return false;
-      if (subcategoryFilter.length > 0 && !subcategoryFilter.includes(sub)) return false;
+
+      if (categoryFilter.length > 0 && !categoryFilter.includes(type)) {
+        return false;
+      }
+
+      if (subcategoryFilter.length > 0 && !subcategoryFilter.includes(sub)) {
+        return false;
+      }
+
       return true;
     });
   }, [categoryFilter, subcategoryFilter]);
-
-  const filteredCards = useMemo(() => {
-    if (!searchTerm) return baseCards;
-    const fuse = new Fuse(baseCards, { keys: ['name'], threshold: 0.3 });
-    return fuse.search(searchTerm).map(result => result.item);
-  }, [searchTerm, baseCards]);
 
   const openModal = card => setSelectedItem(card);
   const closeModal = () => setSelectedItem(null);
@@ -46,6 +50,7 @@ export default function CardContent() {
   return (
     <section className={styles.container}>
       <h2 className='subTitle'>Documentos</h2>
+
       <FilterableCardsGrid
         searchTerm={searchTerm}
         setSearchTerm={setSearchTerm}
@@ -56,10 +61,20 @@ export default function CardContent() {
         categories={categories}
         subMap={subMap}
       />
+
       <div className={styles.screen}>
-        <CardsGrid cards={filteredCards} openModal={openModal} />
+        <CardsGrid
+          cards={baseCards}
+          searchTerm={searchTerm}
+          openModal={openModal}
+        />
       </div>
-      <Modal isOpen={!!selectedItem} onClose={closeModal} booksData={selectedItem} />
+
+      <Modal
+        isOpen={!!selectedItem}
+        onClose={closeModal}
+        booksData={selectedItem}
+      />
     </section>
   );
-}
+} 
