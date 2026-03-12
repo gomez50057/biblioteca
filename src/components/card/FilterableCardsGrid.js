@@ -202,21 +202,21 @@ export default function FilterableCardsGrid({
       const termTokens = termNormalized.split(' ').filter(Boolean);
 
       /*  */
-      /* Nivel 1: coincidencia exacta del título */
+      /* Nivel 1: coincidencia exacta */
       /*  */
       const exactMatches = indexedCards.filter(
         card => card._normalizedName === termNormalized
       );
 
       if (exactMatches.length > 0) {
-        return exactMatches.slice(0, 5).map(card => ({
+        return exactMatches.map(card => ({
           item: card,
           score: 1000,
         }));
       }
 
       /*  */
-      /* Nivel 2: el título inicia con el texto buscado */
+      /* Nivel 2: empieza con el texto buscado */
       /*  */
       const startsWithMatches = indexedCards.filter(card =>
         card._normalizedName.startsWith(termNormalized)
@@ -224,8 +224,9 @@ export default function FilterableCardsGrid({
 
       if (startsWithMatches.length > 0) {
         return startsWithMatches
-          .sort((a, b) => a.name.localeCompare(b.name, 'es', { sensitivity: 'base' }))
-          .slice(0, 5)
+          .sort((a, b) =>
+            a.name.localeCompare(b.name, 'es', { sensitivity: 'base' })
+          )
           .map(card => ({
             item: card,
             score: 800,
@@ -233,7 +234,7 @@ export default function FilterableCardsGrid({
       }
 
       /*  */
-      /* Nivel 3: todas las palabras están presentes en el título */
+      /* Nivel 3: contiene todas las palabras */
       /*  */
       const allTokensMatches = indexedCards.filter(card =>
         hasAllTokens(card._normalizedName, termTokens)
@@ -245,16 +246,15 @@ export default function FilterableCardsGrid({
             item: card,
             score: calculateTitleScore(card, termNormalized, termTokens),
           }))
-          .sort((a, b) => b.score - a.score)
-          .slice(0, 5);
+          .sort((a, b) => b.score - a.score);
       }
 
       /*  */
-      /* Nivel 4: fuzzy solo como respaldo */
+      /* Nivel 4: fuzzy */
       /*  */
       if (termNormalized.length < 3) return [];
 
-      const fuseResults = fuse.search(termNormalized, { limit: 5 });
+      const fuseResults = fuse.search(termNormalized);
 
       return fuseResults
         .filter(result => (result.score ?? 1) <= 0.22)
@@ -337,21 +337,21 @@ export default function FilterableCardsGrid({
   };
 
   useEffect(() => {
-  const term = deferredSearchTerm.trim();
+    const term = deferredSearchTerm.trim();
 
-  if (!term) {
-    setSuggestions([]);
-    setShowSuggestions(false);
-    setActiveSuggestionIndex(-1);
-    return;
-  }
+    if (!term) {
+      setSuggestions([]);
+      setShowSuggestions(false);
+      setActiveSuggestionIndex(-1);
+      return;
+    }
 
-  const nextSuggestions = getSmartSuggestions(term);
+    const nextSuggestions = getSmartSuggestions(term);
 
-  setSuggestions(nextSuggestions);
-  setShowSuggestions(nextSuggestions.length > 0);
-  setActiveSuggestionIndex(nextSuggestions.length > 0 ? 0 : -1);
-}, [deferredSearchTerm, getSmartSuggestions]);
+    setSuggestions(nextSuggestions);
+    setShowSuggestions(nextSuggestions.length > 0);
+    setActiveSuggestionIndex(nextSuggestions.length > 0 ? 0 : -1);
+  }, [deferredSearchTerm, getSmartSuggestions]);
 
   /* texto */
   useEffect(() => {

@@ -3147,14 +3147,14 @@ export const datosBibliotecaDigital = {
       "booksIndex": "286"
     },
     {
-      "name": "Programa Municipal de Desarrollo Urbano de Pachuca de Soto Actualización 2021",
+      "name": "Programa Municipal de Desarrollo Urbano de Pachuca de Soto Actualización 2022",
       "types": [
         "programas"
       ],
       "subcategory": "municipal",
-      "año": "2021",
+      "año": "2022",
       "descriptionBook": "El Programa Municipal de Desarrollo Urbano de Pachuca de Soto es un instrumento de planeación urbana, que permite conducir el crecimiento de asentamientos humanos con una visión a corto, mediano y largo plazo, mediante acciones, políticas y estrategias necesarias para el impulso, conservación, mejoramiento, consolidación, control y crecimiento de los asentamientos humanos en armonía con el medio ambiente. ",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/PACHUCA DE SOTO/Programa Municipal de Desarrollo Urbano de Pachuca de Soto Actualización 2021.pdf",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/PACHUCA DE SOTO/Programa Municipal de Desarrollo Urbano de Pachuca de Soto Actualización 2022.pdf",
       "booksIndex": "287"
     },
     {
@@ -3345,25 +3345,25 @@ export const datosBibliotecaDigital = {
       "booksIndex": "304"
     },
     {
-      "name": "Programa Municipal de Desarrollo Urbano y Ordenamiento Territorial de Villa de Tezontepec 2012",
-      "types": [
-        "programas"
-      ],
-      "subcategory": "municipal",
-      "año": "2012",
-      "descriptionBook": "Programa Municipal de Desarrollo Urbano y Ordenamiento Territorial Villa de Tezontepec, que provee los lineamientos técnicos y jurídicos para el desarrollo territorial equilibrado de Villa de Tezontepec, guiando las decisiones del ayuntamiento en temas de urbanismo.",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/VILLA DE TEZONTEPEC/Programa Municipal de Desarrollo Urbano y Ordenamiento Territorial de Villa de Tezontepec 2012.pdf",
-      "booksIndex": "305"
-    },
-    {
-      "name": "Programa Municipal de Desarrollo Urbano y Ordenamiento Territorial de Zapotlán de Juárez 2013",
+      "name": "Programa Municipal de Desarrollo Urbano y Ordenamiento Territorial de Villa de Tezontepec 2013",
       "types": [
         "programas"
       ],
       "subcategory": "municipal",
       "año": "2013",
+      "descriptionBook": "Programa Municipal de Desarrollo Urbano y Ordenamiento Territorial Villa de Tezontepec, que provee los lineamientos técnicos y jurídicos para el desarrollo territorial equilibrado de Villa de Tezontepec, guiando las decisiones del ayuntamiento en temas de urbanismo.",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/VILLA DE TEZONTEPEC/Programa Municipal de Desarrollo Urbano y Ordenamiento Territorial de Villa de Tezontepec 2013.pdf",
+      "booksIndex": "305"
+    },
+    {
+      "name": "Programa Municipal de Desarrollo Urbano y Ordenamiento Territorial de Zapotlán de Juárez 2016",
+      "types": [
+        "programas"
+      ],
+      "subcategory": "municipal",
+      "año": "2016",
       "descriptionBook": "Programa Municipal de Desarrollo Urbano y Ordenamiento Territorial de Zapotlán de Juárez, el cual define los lineamientos técnicos y legales necesarios para el crecimiento ordenado de Zapotlán de Juárez, siendo una herramienta para la gestión y planificación territorial del ayuntamiento.",
-      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/ZAPOTLÁN DE JUÁREZ/Programa Municipal de Desarrollo Urbano y Ordenamiento Territorial de Zapotlán de Juárez 2013.pdf",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/ZAPOTLÁN DE JUÁREZ/Programa Municipal de Desarrollo Urbano y Ordenamiento Territorial de Zapotlán de Juárez 2016.pdf",
       "booksIndex": "306"
     },
     {
@@ -4861,8 +4861,19 @@ export const datosBibliotecaDigital = {
       "descriptionBook": "El Programa de Ordenación de la Zona Metropolitana del Valle de México busca principalmente establecer las bases para ordenar el territorio de la Zona Metropolitana del Valle de México, mediante políticas y estrategias que permiten mejorar la calidad de vida de la población metropolitana, orientar el crecimiento urbano de forma equilibrada, mejorar la accesibilidad y la movilidad en la metrópoli y coordinar acciones entre el Gobierno Federal, el entonces Distrito Federal y el Estado de México. Uno de sus enfoques es crear condiciones territoriales que favorezcan el desarrollo urbano y la movilidad regional.",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Metropolitano/Programas/Programa de Ordenación de la Zona Metropolitana del Valle de México.pdf",
       "booksIndex": "441"
+    },
+    {
+      "name": "Programa Municipal de Desarrollo Urbano de Tepeji del Río de Ocampo 2025",
+      "types": [
+        "programas"
+      ],
+      "subcategory": "municipal",
+      "año": "2025",
+      "descriptionBook": "Documento que tiene por objetivo orientar el crecimiento y desarrollo urbano del municipio de Tepeji del Río de Ocampo mediante la planeación ordenada del territorio, la regulación de los usos de suelo y la definición de políticas y estrategias que promuevan un desarrollo urbano sustentable, equilibrado y competitivo, garantizando la adecuada dotación de infraestructura, equipamiento y servicios, así como la conservación del entorno ambiental y el bienestar de la población.",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/TEPEJI DEL RÍO DE OCAMPO/Programa Municipal de Desarrollo Urbano de Tepeji del Río de Ocampo 2025.pdf",
+      "booksIndex": "442"
     }
-    
+
   ]
 };
 
