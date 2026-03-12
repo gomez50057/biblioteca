@@ -1,6 +1,6 @@
 import Footer from "@/shared/Footer";
 import ClientLayout from "@/shared/ClientLayout";
-// import GoogleAnalytics from "@/components/shared/GoogleAnalytics";
+import GoogleAnalytics from "@/shared/GoogleAnalytics";
 import "@/styles/globals.css";
 
 export const metadata = {
@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="es">
       <head>
-        {/* <GoogleAnalytics /> */}
+        <GoogleAnalytics />
       </head>
       <body>
         <ClientLayout>{children}</ClientLayout>
