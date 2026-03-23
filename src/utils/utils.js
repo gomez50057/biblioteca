@@ -4872,6 +4872,17 @@ export const datosBibliotecaDigital = {
       "descriptionBook": "Documento que tiene por objetivo orientar el crecimiento y desarrollo urbano del municipio de Tepeji del Río de Ocampo mediante la planeación ordenada del territorio, la regulación de los usos de suelo y la definición de políticas y estrategias que promuevan un desarrollo urbano sustentable, equilibrado y competitivo, garantizando la adecuada dotación de infraestructura, equipamiento y servicios, así como la conservación del entorno ambiental y el bienestar de la población.",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/INSTRUMENTOS POR MUNICIPIOS/TEPEJI DEL RÍO DE OCAMPO/Programa Municipal de Desarrollo Urbano de Tepeji del Río de Ocampo 2025.pdf",
       "booksIndex": "442"
+    },
+    {
+      "name": "Actualización del Plan Estatal de Desarrollo 2022-2028",
+      "types": [
+        "planes"
+      ],
+      "subcategory": "estatal",
+      "año": "2022-2028",
+      "descriptionBook": "La Actualización del Plan Estatal de Desarrollo 2022–2028 del estado de Hidalgo es el instrumento rector que establece la visión, objetivos, estrategias y líneas de acción que guían el quehacer gubernamental en la entidad, en congruencia con el Plan Nacional de Desarrollo. Su actualización responde a la necesidad de ajustar la planeación estatal frente a los cambios en el contexto social, económico y territorial, así como a las nuevas prioridades y demandas de la población. Su objetivo es fortalecer la toma de decisiones con un enfoque incluyente, sostenible y orientado al bienestar, garantizando la coherencia y eficacia de las políticas públicas para impulsar el desarrollo integral del estado.",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Estatal/Actualización del Plan Estatal de Desarrollo 2022-2028.pdf",
+      "booksIndex": "443"
     }
 
   ]
