@@ -12,7 +12,7 @@ const categories = ['planes', 'programas', 'guías', 'atlas', 'informes', 'regla
 const subMap = {
   planes: ['nacional', 'estatal', 'municipal'],
   programas: ['estatal', 'municipal', 'sectorial', 'institucional', 'especial', 'metropolitano'],
-  guías: ['estatal', 'municipal', 'inexistente'],
+  guías: ['estatal', 'municipal', 'sectorial', 'institucional'],
   atlas: ['inexistente'],
   informes: ['nacional', 'estatal', 'municipal'],
   reglamentos: ['inexistente'],

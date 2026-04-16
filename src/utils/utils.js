@@ -1369,7 +1369,7 @@ export const datosBibliotecaDigital = {
       "types": [
         "guías"
       ],
-      "subcategory": "inexistente",
+      "subcategory": "municipal",
       "año": "2024",
       "descriptionBook": "La presente Guía Metodológica proporciona un marco claro y estructurado para la operación efectiva del COPLADEM, conforme a las disposiciones establecidas en la Ley de Planeación y Prospectiva del Estado de Hidalgo y el Reglamento Interior de la Unidad de Planeación y Prospectiva. Esta guía tiene como objetivo ser una herramienta práctica y accesible, destinada a facilitar el entendimiento y los procesos del Comité, asegurando una operación coherente y eficiente en el fomento a la democracia.",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Guías/Guía para la operación del Comité de Planeación para el Desarrollo Municipal (COPLADEM).pdf",
@@ -1380,7 +1380,7 @@ export const datosBibliotecaDigital = {
       "types": [
         "guías"
       ],
-      "subcategory": "inexistente",
+      "subcategory": "sectorial",
       "año": "2022-2028",
       "descriptionBook": "Documento técnico que especifica la metodología a seguir para la realización de los programas Sectoriales y Especiales de Desarrollo por parte de las Dependencias de la Administración Pública Estatal.",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Guías/Guía Metodológica para la Elaboración de los Programas Sectoriales y Especiales 2022-2028.pdf",
@@ -1391,7 +1391,7 @@ export const datosBibliotecaDigital = {
       "types": [
         "guías"
       ],
-      "subcategory": "inexistente",
+      "subcategory": "institucional",
       "año": "2023-2028",
       "descriptionBook": "Documento técnico que especifica la metodología a seguir para la realización de los programas Institucionales de Desarrollo por parte de los Organismos Públicos Descentralizados.",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Guías/Guía Metodológica para la Elaboración de los Programas Institucionales de Desarrollo 2023-2028.pdf",
@@ -1402,7 +1402,7 @@ export const datosBibliotecaDigital = {
       "types": [
         "guías"
       ],
-      "subcategory": "inexistente",
+      "subcategory": "municipal",
       "año": "2023",
       "descriptionBook": "Fomentar el desarrollo integral en materia de Infraestructura Verde a través de los “Programas Municipales de Infraestructura Verde” para los 84 municipios del Estado de Hidalgo, mediante elementos técnicos metodológicos participativos, bajo un enfoque de transformación ecológica y conservación de la biodiversidad.",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Guías/Guía Técnica-Metodológica para la Elaboración del Programa Municipal de Infraestructura Verde.pdf",
@@ -1413,7 +1413,7 @@ export const datosBibliotecaDigital = {
       "types": [
         "guías"
       ],
-      "subcategory": "inexistente",
+      "subcategory": "municipal",
       "año": "2024",
       "descriptionBook": "El presente documento establece el marco legal que fundamenta la responsabilidad de la Unidad de Planeación y Prospectiva, así como de los municipios de la entidad, en torno al proceso de generación de instrumentos de planeación. Así mismo, define los elementos metodológicos que guiarán su desarrollo, estableciendo el contenido mínimo con el que deberá contar dicho instrumento municipal para una óptima planeación del desarrollo.",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Guías/Lineamientos para la Actualización de los Planes Municipales de Desarrollo al 2024.pdf",
@@ -3701,7 +3701,7 @@ export const datosBibliotecaDigital = {
       "types": [
         "guías"
       ],
-      "subcategory": "estatal",
+      "subcategory": "municipal",
       "año": "2024-2027",
       "descriptionBook": "Los Planes Municipales de Desarrollo son el mecanismo mediante el cual se implementa la gestión municipal, basándose en la planeación estratégica, lo cual es esencial para enfrentar los cambios contextuales que afectan a las administraciones municipales, tanto internos como externos. Además, una planeación adecuada permite atender las políticas y medidas del Plan Estatal de Desarrollo 2022-2028.",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Guías/Lineamientos para la Elaboración de los Planes Municipales de Desarrollo 2024-2027.pdf",
@@ -4889,7 +4889,7 @@ export const datosBibliotecaDigital = {
       "types": [
         "guías"
       ],
-      "subcategory": "inexistente",
+      "subcategory": "sectorial",
       "año": "2022-2028",
       "descriptionBook": "La Guía Metodológica para la Actualización de los Programas Sectoriales y Especiales de Desarrollo 2022–2028 del Estado de Hidalgo es un instrumento técnico que orienta a las dependencias y entidades en la revisión y ajuste de sus programas, con el fin de asegurar su congruencia con la actualización del  Plan Estatal de Desarrollo y su adecuación a los cambios en el contexto social, económico y territorial. Su propósito es establecer criterios y lineamientos que permitan actualizar objetivos, estrategias, indicadores y líneas de acción, fortaleciendo la planeación basada en resultados y garantizando la continuidad, pertinencia y eficacia de las políticas públicas. ",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Guías/Guía Metodológica para la Actualización de los Programas Sectoriales y Especiales de Desarrollo 2022-2028.pdf",
