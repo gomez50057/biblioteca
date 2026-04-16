@@ -4883,7 +4883,18 @@ export const datosBibliotecaDigital = {
       "descriptionBook": "La Actualización del Plan Estatal de Desarrollo 2022–2028 del estado de Hidalgo es el instrumento rector que establece la visión, objetivos, estrategias y líneas de acción que guían el quehacer gubernamental en la entidad, en congruencia con el Plan Nacional de Desarrollo. Su actualización responde a la necesidad de ajustar la planeación estatal frente a los cambios en el contexto social, económico y territorial, así como a las nuevas prioridades y demandas de la población. Su objetivo es fortalecer la toma de decisiones con un enfoque incluyente, sostenible y orientado al bienestar, garantizando la coherencia y eficacia de las políticas públicas para impulsar el desarrollo integral del estado.",
       "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Estatal/Actualización del Plan Estatal de Desarrollo 2022-2028.pdf",
       "booksIndex": "443"
-    }
+    },
+    {
+      "name": "Guía Metodológica para la Actualización de los Programas Sectoriales y Especiales de Desarrollo 2022-2028",
+      "types": [
+        "guías"
+      ],
+      "subcategory": "inexistente",
+      "año": "2022-2028",
+      "descriptionBook": "La Guía Metodológica para la Actualización de los Programas Sectoriales y Especiales de Desarrollo 2022–2028 del Estado de Hidalgo es un instrumento técnico que orienta a las dependencias y entidades en la revisión y ajuste de sus programas, con el fin de asegurar su congruencia con la actualización del  Plan Estatal de Desarrollo y su adecuación a los cambios en el contexto social, económico y territorial. Su propósito es establecer criterios y lineamientos que permitan actualizar objetivos, estrategias, indicadores y líneas de acción, fortaleciendo la planeación basada en resultados y garantizando la continuidad, pertinencia y eficacia de las políticas públicas. ",
+      "pdfSrc": "https://bibliotecadigitaluplaph.hidalgo.gob.mx/Biblioteca Digital de Planeación/Guías/Guía Metodológica para la Actualización de los Programas Sectoriales y Especiales de Desarrollo 2022-2028.pdf",
+      "booksIndex": "443"
+    },
 
   ]
 };
